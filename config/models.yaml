@@ -1,24 +1,24 @@
 models:
   - provider: ollama
     model_id: qwen2.5:0.5b
-    cost_per_input_token: 0.0
-    cost_per_output_token: 0.0
+    cost_per_input_token: 0.00000002
+    cost_per_output_token: 0.00000002
     avg_latency: 0.5
     quality_tier: low
     api_key_env_var: null
 
   - provider: ollama
     model_id: qwen2.5:7b
-    cost_per_input_token: 0.0
-    cost_per_output_token: 0.0
+    cost_per_input_token: 0.00000005
+    cost_per_output_token: 0.0000001
     avg_latency: 2.0
     quality_tier: medium
     api_key_env_var: null
 
   - provider: ollama
     model_id: qwen2.5:14b
-    cost_per_input_token: 0.0
-    cost_per_output_token: 0.0
+    cost_per_input_token: 0.0000001
+    cost_per_output_token: 0.0000002
     avg_latency: 4.0
     quality_tier: high
     api_key_env_var: null
