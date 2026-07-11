@@ -12,3 +12,13 @@ class ModelConfig:
     avg_latency: float                     # rough average response time in seconds
     quality_tier: str                      # "high", "medium", or "low"
     api_key_env_var: Optional[str] = None  # env var name holding the API key, None for Ollama
+
+
+@dataclass
+class Response:
+    output_text: str
+    input_tokens: int
+    output_tokens: int
+    latency: float
+    cost: float
+    model_id: str
