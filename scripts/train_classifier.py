@@ -5,19 +5,12 @@ import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report
 from sklearn.model_selection import train_test_split
+from app.features import FEATURE_COLUMNS
 
 DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "features.csv"
 MODEL_PATH = Path(__file__).resolve().parent.parent / "models" / "tier_classifier.joblib"
 
-FEATURE_COLUMNS = [
-    "word_count",
-    "char_count",
-    "sentence_count",
-    "avg_word_length",
-    "has_question_mark",
-    "code_token_count",
-    "instruction_verb_count",
-]
+
 
 TIER_NAMES = {0: "simple", 1: "moderate", 2: "complex"}
 
