@@ -25,10 +25,21 @@ CREATE TABLE IF NOT EXISTS requests (
 )
 """
 
+_RETRAINING_SCHEMA = """
+CREATE TABLE IF NOT EXISTS retraining_candidates (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    timestamp TEXT NOT NULL,
+    prompt TEXT NOT NULL,
+    tier_corrected TEXT NOT NULL,
+    incorporated INTEGER NOT NULL DEFAULT 0
+)
+"""
+
 
 def _init_db() -> None:
     with sqlite3.connect(DB_PATH) as conn:
         conn.execute(_SCHEMA)
+        conn.execute(_RETRAINING_SCHEMA)
 
 
 def log_request(
@@ -65,6 +76,17 @@ def log_request(
                 int(verification.escalated),
                 verification.cost_delta,
             ),
+        )
+
+def log_retraining_candidate(prompt: str, tier_corrected: str) -> None:
+    """Store the raw prompt text (unlike log_request, which only hashes it)
+    for an escalated request, so the flywheel can turn it into a corrected
+    training example later."""
+    _init_db()
+    with sqlite3.connect(DB_PATH) as conn:
+        conn.execute(
+            "INSERT INTO retraining_candidates (timestamp, prompt, tier_corrected) VALUES (?, ?, ?)",
+            (datetime.now(timezone.utc).isoformat(), prompt, tier_corrected),
         )
 
 

@@ -5,6 +5,7 @@ from app.logger import log_request
 from app.models import Response
 from app.router import detect_provider, get_model_config, predict_tier
 from app.verifier import verify_and_escalate
+from app.logger import log_request, log_retraining_candidate
 
 
 def _verify_in_background(prompt: str, provider: str, tier: str, routed_model, response: Response) -> None:
@@ -12,6 +13,10 @@ def _verify_in_background(prompt: str, provider: str, tier: str, routed_model, r
     the caller already has."""
     verification = verify_and_escalate(prompt, response, provider, tier)
     log_request(prompt, provider, tier, routed_model, response, verification)
+    if verification.escalated:
+        # Escalation always jumps straight to the top tier, so that's the
+        # corrected label — the cheap tier was wrong, complex was right.
+        log_retraining_candidate(prompt, tier_corrected="complex")
 
 
 def handle_request(prompt: str) -> Response:
