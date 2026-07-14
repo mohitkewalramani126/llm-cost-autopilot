@@ -33,10 +33,17 @@ def estimate_cost(model, input_tokens, output_tokens):
 
 def run_simulation():
     df = pd.read_csv(DATA_PATH)
-    provider = detect_provider()
-    complex_model = get_model(provider, "complex")
 
-    stats = {tier: {"count": 0, "tokens": 0, "routed_cost": 0.0, "baseline_cost": 0.0} for tier in TIERS}
+    # Baseline = always routing to the top tier. Resolved once, since the
+    # "what if everything went to the best model" comparison should use one
+    # consistent reference point.
+    complex_provider = detect_provider("complex")
+    complex_model = get_model(complex_provider, "complex")
+
+    stats = {
+        tier: {"count": 0, "tokens": 0, "routed_cost": 0.0, "baseline_cost": 0.0, "providers": set()}
+        for tier in TIERS
+    }
 
     for prompt in df["prompt"]:
         predicted_tier = predict_tier(prompt)
@@ -45,7 +52,11 @@ def run_simulation():
         output_tokens = AVG_OUTPUT_TOKENS[predicted_tier]
         total_tokens = input_tokens + output_tokens
 
-        routed_model = get_model(provider, predicted_tier)
+        # Resolved per-tier, per-prompt -- since a paid-provider setup with
+        # both OpenAI and Anthropic keys can genuinely route different
+        # tiers to different providers depending on which is cheaper.
+        tier_provider = detect_provider(predicted_tier)
+        routed_model = get_model(tier_provider, predicted_tier)
         routed_cost = estimate_cost(routed_model, input_tokens, output_tokens)
         baseline_cost = estimate_cost(complex_model, input_tokens, output_tokens)
 
@@ -54,6 +65,7 @@ def run_simulation():
         s["tokens"] += total_tokens
         s["routed_cost"] += routed_cost
         s["baseline_cost"] += baseline_cost
+        s["providers"].add(tier_provider)
 
     total_prompts = sum(s["count"] for s in stats.values())
     total_tokens = sum(s["tokens"] for s in stats.values())
@@ -61,16 +73,17 @@ def run_simulation():
     total_baseline_cost = sum(s["baseline_cost"] for s in stats.values())
     total_savings = total_baseline_cost - total_routed_cost
 
-    print(f"Provider: {provider}")
+    print(f"Baseline: always {complex_provider}/{complex_model.model_id}")
     print(f"Prompts simulated: {total_prompts}\n")
 
-    print(f"{'Tier':10s} {'Prompts':>8s} {'% of req':>9s} {'% of tokens':>12s} {'Baseline $':>12s} {'Routed $':>12s} {'Savings':>9s}")
+    print(f"{'Tier':10s} {'Provider':10s} {'Prompts':>8s} {'% of req':>9s} {'% of tokens':>12s} {'Baseline $':>12s} {'Routed $':>12s} {'Savings':>9s}")
     for tier in TIERS:
         s = stats[tier]
         req_share = 100 * s["count"] / total_prompts if total_prompts else 0
         token_share = 100 * s["tokens"] / total_tokens if total_tokens else 0
         tier_savings_pct = 100 * (s["baseline_cost"] - s["routed_cost"]) / s["baseline_cost"] if s["baseline_cost"] else 0
-        print(f"{tier:10s} {s['count']:8d} {req_share:8.1f}% {token_share:11.1f}% {s['baseline_cost']:12.6f} {s['routed_cost']:12.6f} {tier_savings_pct:8.1f}%")
+        providers_str = "/".join(sorted(s["providers"])) or "n/a"
+        print(f"{tier:10s} {providers_str:10s} {s['count']:8d} {req_share:8.1f}% {token_share:11.1f}% {s['baseline_cost']:12.6f} {s['routed_cost']:12.6f} {tier_savings_pct:8.1f}%")
 
     print()
     print(f"Baseline cost (always {complex_model.model_id}): ${total_baseline_cost:.6f}")

@@ -24,27 +24,35 @@ models:
     api_key_env_var: null
 
   - provider: openai
-    model_id: gpt-4o-mini
-    cost_per_input_token: 0.00000015
-    cost_per_output_token: 0.0000006
-    avg_latency: 1.0
-    quality_tier: medium
-    api_key_env_var: OPENAI_API_KEY
-
-  - provider: openai
     model_id: gpt-4o
     cost_per_input_token: 0.0000025
     cost_per_output_token: 0.00001
     avg_latency: 2.5
+    quality_tier: low
+    api_key_env_var: OPENAI_API_KEY
+
+  - provider: openai
+    model_id: gpt-5.3
+    cost_per_input_token: 0.00000175
+    cost_per_output_token: 0.000014
+    avg_latency: 2.0
+    quality_tier: medium
+    api_key_env_var: OPENAI_API_KEY
+
+  - provider: openai
+    model_id: gpt-5.6-terra
+    cost_per_input_token: 0.0000025
+    cost_per_output_token: 0.000015
+    avg_latency: 3.0
     quality_tier: high
     api_key_env_var: OPENAI_API_KEY
 
   - provider: anthropic
-    model_id: claude-haiku-4-5
+    model_id: claude-haiku-4-5-20251001
     cost_per_input_token: 0.000001
     cost_per_output_token: 0.000005
     avg_latency: 1.0
-    quality_tier: medium
+    quality_tier: low
     api_key_env_var: ANTHROPIC_API_KEY
 
   - provider: anthropic
@@ -52,5 +60,13 @@ models:
     cost_per_input_token: 0.000003
     cost_per_output_token: 0.000015
     avg_latency: 2.5
+    quality_tier: medium
+    api_key_env_var: ANTHROPIC_API_KEY
+
+  - provider: anthropic
+    model_id: claude-opus-4-8
+    cost_per_input_token: 0.000005
+    cost_per_output_token: 0.000025
+    avg_latency: 4.0
     quality_tier: high
     api_key_env_var: ANTHROPIC_API_KEY

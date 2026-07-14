@@ -60,7 +60,14 @@ def _send_openai(prompt: str, model_config: ModelConfig) -> Response:
             "messages": [{"role": "user", "content": prompt}],
         },
     )
-    resp.raise_for_status()
+    if not resp.ok:
+        raise RuntimeError(
+            f"OpenAI API request failed ({resp.status_code}) for model "
+            f"'{model_config.model_id}': {resp.text[:300]}. If this looks like "
+            "a 'model not found' error, the model name in config/models.yaml "
+            "may be outdated -- check https://platform.openai.com/docs/models "
+            "for current model names."
+        )
     data = resp.json()
     latency = time.perf_counter() - start
 
@@ -97,7 +104,15 @@ def _send_anthropic(prompt: str, model_config: ModelConfig) -> Response:
             "messages": [{"role": "user", "content": prompt}],
         },
     )
-    resp.raise_for_status()
+    if not resp.ok:
+        raise RuntimeError(
+            f"Anthropic API request failed ({resp.status_code}) for model "
+            f"'{model_config.model_id}': {resp.text[:300]}. If this looks like "
+            "a 'model not found' error, the model name in config/models.yaml "
+            "may be outdated -- check "
+            "https://platform.claude.com/docs/en/about-claude/models/overview "
+            "for current model names."
+        )
     data = resp.json()
     latency = time.perf_counter() - start
 

@@ -22,8 +22,8 @@ def _verify_in_background(prompt: str, provider: str, tier: str, routed_model, r
 def handle_request(prompt: str) -> Response:
     """The full pipeline: route, get a response, return it immediately,
     and kick off quality verification + logging in the background."""
-    provider = detect_provider()
     tier = predict_tier(prompt)
+    provider = detect_provider(tier)
     routed_model = get_model_config(provider, tier)
     response = send_request(prompt, routed_model)
 

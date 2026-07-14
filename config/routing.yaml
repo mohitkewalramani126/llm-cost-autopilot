@@ -4,16 +4,10 @@ routing:
     moderate: qwen2.5:7b
     complex: qwen2.5:14b
   openai:
-    simple: gpt-4o-mini
-    moderate: gpt-4o-mini
-    complex: gpt-4o
+    simple: gpt-4o
+    moderate: gpt-5.3
+    complex: gpt-5.6-terra
   anthropic:
-    simple: claude-haiku-4-5
-    moderate: claude-haiku-4-5
-    complex: claude-sonnet-4-6
-
-# Used when multiple API keys are set at once — checked in this order.
-provider_priority:
-  - anthropic
-  - openai
-  - ollama
+    simple: claude-haiku-4-5-20251001
+    moderate: claude-sonnet-4-6
+    complex: claude-opus-4-8
