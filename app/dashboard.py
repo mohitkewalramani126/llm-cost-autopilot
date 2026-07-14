@@ -9,6 +9,12 @@ import streamlit as st
 import yaml
 from streamlit_autorefresh import st_autorefresh
 
+from app.stats import (
+    load_requests as _load_requests,
+    load_pricing as _load_pricing,
+    estimate_baseline_cost,
+)
+
 DB_PATH = Path(__file__).resolve().parent.parent / "data" / "requests.db"
 MODELS_CONFIG_PATH = Path(__file__).resolve().parent.parent / "config" / "models.yaml"
 ROUTING_CONFIG_PATH = Path(__file__).resolve().parent.parent / "config" / "routing.yaml"
@@ -112,46 +118,12 @@ def chart_heading(text: str) -> None:
 
 @st.cache_data(ttl=15)
 def load_requests() -> pd.DataFrame:
-    with sqlite3.connect(DB_PATH) as conn:
-        df = pd.read_sql_query("SELECT * FROM requests", conn)
-    df["timestamp"] = pd.to_datetime(df["timestamp"], utc=True)
-    df["total_cost"] = df["cost"] + df["cost_delta"]
-    df["hour"] = df["timestamp"].dt.hour
-    return df
+    return _load_requests()
 
 
 @st.cache_data(ttl=60)
 def load_pricing() -> dict:
-    with open(MODELS_CONFIG_PATH) as f:
-        models = yaml.safe_load(f)["models"]
-    with open(ROUTING_CONFIG_PATH) as f:
-        routing = yaml.safe_load(f)["routing"]
-    price = {
-        (m["provider"], m["model_id"]): m["cost_per_input_token"] + m["cost_per_output_token"]
-        for m in models
-    }
-    top_model = {provider: tiers["complex"] for provider, tiers in routing.items()}
-    return {"price": price, "top_model": top_model}
-
-
-def estimate_baseline_cost(df: pd.DataFrame, pricing: dict) -> pd.Series:
-    """What each request would have cost on the top-tier model for its
-    provider. Escalated requests already reflect top-tier pricing exactly;
-    everything else is scaled by the per-token price ratio between the
-    routed model and the top-tier model, since only a prompt hash is
-    logged, not token counts."""
-    price, top_model = pricing["price"], pricing["top_model"]
-
-    def row_baseline(row):
-        if row["escalated"] or row["tier"] == "complex":
-            return row["total_cost"]
-        used_price = price.get((row["provider"], row["model_id"]))
-        top_price = price.get((row["provider"], top_model.get(row["provider"])))
-        if not used_price or not top_price:
-            return row["total_cost"]
-        return row["total_cost"] * (top_price / used_price)
-
-    return df.apply(row_baseline, axis=1)
+    return _load_pricing()
 
 
 def render_kpi_cards(cards: list[dict]) -> None:

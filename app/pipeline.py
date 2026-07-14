@@ -19,9 +19,13 @@ def _verify_in_background(prompt: str, provider: str, tier: str, routed_model, r
         log_retraining_candidate(prompt, tier_corrected="complex")
 
 
-def handle_request(prompt: str) -> Response:
+def handle_request(prompt: str):
     """The full pipeline: route, get a response, return it immediately,
-    and kick off quality verification + logging in the background."""
+    and kick off quality verification + logging in the background.
+
+    Returns (response, provider, tier) -- the caller often needs to know
+    not just the output but which provider/tier handled it (e.g. the API
+    layer reporting "why" a request was routed a certain way)."""
     tier = predict_tier(prompt)
     provider = detect_provider(tier)
     routed_model = get_model_config(provider, tier)
@@ -34,7 +38,7 @@ def handle_request(prompt: str) -> Response:
     )
     thread.start()
 
-    return response
+    return response, provider, tier
 
 
 if __name__ == "__main__":
@@ -48,8 +52,8 @@ if __name__ == "__main__":
 
     start = time.perf_counter()
     for i in range(10):
-        response = handle_request(f"What is {i} plus {i}?")
-        print(f"Got response in {response.latency:.2f}s: {response.output_text.strip()[:40]}")
+        response, provider, tier = handle_request(f"What is {i} plus {i}?")
+        print(f"[{tier:8s}/{provider:10s}] Got response in {response.latency:.2f}s: {response.output_text.strip()[:40]}")
     total = time.perf_counter() - start
     print(f"All 10 requests returned in {total:.2f}s total")
 

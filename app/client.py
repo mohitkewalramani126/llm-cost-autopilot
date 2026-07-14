@@ -5,7 +5,7 @@ import requests
 
 from app.models import ModelConfig, Response
 
-OLLAMA_URL = "http://localhost:11434/api/generate"
+OLLAMA_URL = os.getenv("OLLAMA_URL", "http://localhost:11434/api/generate")
 
 
 class MissingAPIKeyError(Exception):
