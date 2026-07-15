@@ -27,7 +27,7 @@ GRID_COLOR = "#232a3d"
 FONT_FAMILY = "Inter, -apple-system, BlinkMacSystemFont, sans-serif"
 CHART_CONFIG = {"displayModeBar": False}
 
-st.set_page_config(page_title="LLM Cost Autopilot", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="Triage", layout="wide", initial_sidebar_state="expanded")
 
 pio.templates["autopilot"] = go.layout.Template(
     layout=go.Layout(
@@ -53,18 +53,26 @@ st.markdown(
     }}
     .main .block-container {{padding-top: 1.5rem; max-width: 1400px;}}
     h1 {{
-        color: #f8fafc;
-        font-weight: 800;
-        letter-spacing: -0.02em;
-        font-size: 2.1rem;
+        background: linear-gradient(90deg, #ef4444, #f59e0b, #22c55e) !important;
+        -webkit-background-clip: text !important;
+        background-clip: text !important;
+        color: transparent !important;
+        -webkit-text-fill-color: transparent !important;
+        font-weight: 800 !important;
+        letter-spacing: -0.04em !important;
+        font-size: 5rem !important;
+        text-align: center !important;
+        margin-top: 0.5rem !important;
+        margin-bottom: 0.3rem !important;
+        filter: drop-shadow(0 0 28px rgba(245, 158, 11, 0.28));
     }}
-    [data-testid="stCaptionContainer"] {{color: #94a3b8;}}
-    [data-testid="stPlotlyChart"] {{
-        background: {CARD_BG};
-        border-radius: 16px;
-        padding: 16px;
-        border: 1px solid #1e2436;
-        transition: box-shadow 0.15s ease;
+    [data-testid="stCaptionContainer"] {{
+        color: #94a3b8 !important;
+        text-align: center !important;
+        font-size: 1.05rem !important;
+        letter-spacing: 0.03em !important;
+        font-weight: 400 !important;
+        margin-bottom: 1.6rem !important;
     }}
     [data-testid="stPlotlyChart"]:hover {{
         box-shadow: 0 6px 20px rgba(0,0,0,0.35);
@@ -213,8 +221,8 @@ def render_ring(value: float, label: str, color: str, display_text: str = None, 
 df_all = load_requests()
 pricing = load_pricing()
 
-st.title("LLM Cost Autopilot")
-st.caption("Routing, cost, and quality overview — reads live from data/requests.db")
+st.title("Triage")
+st.caption("Intelligent LLM request routing that cuts API costs without sacrificing output quality.")
 
 if df_all.empty:
     st.info("No requests logged yet. Run scripts/replay_traffic.py or send some live traffic first.")
@@ -436,3 +444,6 @@ with tab_raw:
     )
     st.download_button("Download filtered data as CSV", active_df.to_csv(index=False).encode("utf-8"),
                         file_name="requests_filtered.csv", mime="text/csv")
+    
+st.divider()
+st.caption("© 2026 Mohit Kewalramani. All rights reserved.")

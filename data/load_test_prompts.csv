@@ -1,0 +1,1001 @@
+category,prompt
+data_analysis,Analyze the trend in customer lifetime value over the last 6 months and suggest two hypotheses for what's driving it.
+creative_support,A customer says their a portable espresso maker isn't working and it stopped syncing yesterday. Write a helpful support response.
+coding_technical,"Design a monolithic architecture for a ride-sharing dispatch system using Kubernetes and RabbitMQ, covering fault tolerance, data consistency, and scaling under peak load."
+misc,List three pros and three cons of four-day work weeks.
+general_knowledge,What is the capital of Vietnam?
+creative_support,"Plan a product launch party for a board of 12 investors with a budget of $500, including a rough timeline and vendor checklist."
+creative_support,A customer says their a standing desk isn't working and it disconnects from Wi-Fi randomly. Write a helpful support response.
+creative_support,Write a short story about a librarian who can hear books think.
+coding_technical,Write a Ruby function that flattens a nested dictionary.
+creative_support,A customer says their a smart pet feeder isn't working and the screen flickers constantly. Write a helpful support response.
+data_analysis,"Given that revenue grew 12% quarter over quarter, what might be driving the change in gross margin?"
+creative_support,"Plan a partner appreciation event for a board of 12 investors with a budget of $2,000, including a rough timeline and vendor checklist."
+creative_support,Write a product description for a fitness tracking ring aimed at first-time buyers.
+general_knowledge,Translate 'where is the nearest hospital' into Turkish.
+office_business,Write a professional email to a client about a pricing change.
+coding_technical,Compare a list and a struct for a system handling a payment processing pipeline.
+office_business,Write a polite follow-up message to an investor regarding an upcoming product launch.
+creative_support,A customer says their a folding electric bike isn't working and the app keeps crashing. Write a helpful support response.
+general_knowledge,Who invented the elevator?
+coding_technical,Explain the difference between a stack and a linked list in JavaScript.
+creative_support,A customer says their a fitness tracking ring isn't working and it overheats after 10 minutes. Write a helpful support response.
+coding_technical,Explain the difference between synchronous code and GraphQL in C++.
+coding_technical,Write unit tests in Ruby for a function that checks if two strings are anagrams.
+creative_support,"Plan a customer advisory board dinner for a regional sales team of 25 with a budget of $2,000, including a rough timeline and vendor checklist."
+coding_technical,Explain the difference between a stack and asynchronous code in Ruby.
+general_knowledge,Translate 'have a safe trip' into Russian.
+office_business,Write a polite follow-up message to a job candidate regarding a delayed shipment.
+office_business,Write a professional email to your manager about an upcoming product launch.
+coding_technical,"Design a event-driven architecture for a multi-region data replication service using Kubernetes and RabbitMQ, covering fault tolerance, data consistency, and scaling under peak load."
+misc,Define 'idempotency' in one sentence.
+misc,What is 141 plus 580?
+coding_technical,Write unit tests in C++ for a function that converts a string to title case.
+coding_technical,Refactor a Go function that sorts a list of tuples to improve error handling.
+coding_technical,Write a Python function that flattens a nested dictionary.
+misc,"Walk me through the steps to run a retrospective after a failed launch, covering the key decisions at each stage."
+coding_technical,Debug this issue: a C++ function that implements a binary search works for most inputs but fails on edge cases. What should I check?
+creative_support,"Plan a customer appreciation dinner for 40 remote employees with a budget of $15,000, including a rough timeline and vendor checklist."
+data_analysis,Analyze the trend in customer lifetime value over the last fiscal year and suggest two hypotheses for what's driving it.
+coding_technical,Compare REST and GraphQL for a system handling a multi-region data replication service.
+data_analysis,Analyze the trend in monthly active users over the past 3 quarters and suggest two hypotheses for what's driving it.
+data_analysis,Analyze the trend in churn rate over the past 3 quarters and suggest two hypotheses for what's driving it.
+coding_technical,Compare a thread and GraphQL for a system handling an inventory management system.
+creative_support,A customer says their a portable espresso maker isn't working and it won't turn on. Write a helpful support response.
+coding_technical,Debug this issue: a C++ function that sorts a list of tuples works for most inputs but fails on edge cases. What should I check?
+creative_support,"Plan a conference booth for a regional sales team of 25 with a budget of $1,200, including a rough timeline and vendor checklist."
+misc,What is 605 plus 759?
+general_knowledge,Translate 'how much does this cost' into Swahili.
+coding_technical,Refactor a TypeScript function that reverses a string to improve readability.
+office_business,Write a polite follow-up message to the legal team regarding a scheduling conflict.
+coding_technical,Explain the difference between synchronous code and a semaphore in TypeScript.
+office_business,Draft a vendor comparison brief for a new client onboarding.
+data_analysis,What SQL query would return the top 10 customers by total spend?
+office_business,Write a professional email to your manager about a partnership proposal.
+misc,What is 234 plus 100?
+office_business,Summarize the key points from a discussion about a contract renewal into three action items.
+office_business,Summarize the key points from a discussion about a new expense policy into three action items.
+office_business,Draft a press release draft for a product launch.
+coding_technical,Compare a stack and a queue for a system handling a multi-region data replication service.
+coding_technical,Debug this issue: a Java function that removes duplicates from a list works for most inputs but fails on edge cases. What should I check?
+coding_technical,"Design a serverless architecture for a video streaming platform using Kafka and PostgreSQL, covering fault tolerance, data consistency, and scaling under peak load."
+office_business,Write a professional email to the legal team about a data privacy update.
+coding_technical,Refactor a Rust function that checks if a number is prime to improve performance.
+creative_support,"Plan a quarterly town hall for 30 summer interns with a budget of $1,200, including a rough timeline and vendor checklist."
+data_analysis,Analyze the trend in conversion rate over the past 3 quarters and suggest two hypotheses for what's driving it.
+coding_technical,Refactor a C++ function that merges two sorted lists to improve readability.
+office_business,Draft a press release draft for a vendor negotiation.
+office_business,Draft a onboarding checklist for a Q3 all-hands meeting.
+misc,What is 365 plus 598?
+coding_technical,Explain the difference between a class and asynchronous code in SQL.
+misc,What is 724 plus 606?
+creative_support,A customer says their a smart pet feeder isn't working and it stopped syncing yesterday. Write a helpful support response.
+coding_technical,Compare a stack and a queue for a system handling a video streaming platform.
+coding_technical,Compare a list and asynchronous code for a system handling a multi-region data replication service.
+office_business,Draft a vendor comparison brief for a team restructuring.
+creative_support,"Plan a customer appreciation dinner for 30 summer interns with a budget of $50,000, including a rough timeline and vendor checklist."
+creative_support,"Plan an employee wellness day for a regional sales team of 25 with a budget of $500, including a rough timeline and vendor checklist."
+office_business,Summarize the key points from a discussion about a scheduling conflict into three action items.
+coding_technical,"Design a event-driven architecture for an online auction platform using Kafka and PostgreSQL, covering fault tolerance, data consistency, and scaling under peak load."
+coding_technical,Debug this issue: a Swift function that validates an email address works for most inputs but fails on edge cases. What should I check?
+office_business,Write a professional email to a new hire about an office relocation.
+general_knowledge,What is the capital of Portugal?
+creative_support,"Plan a customer appreciation dinner for 500 trade show visitors with a budget of $2,000, including a rough timeline and vendor checklist."
+general_knowledge,What is the capital of Greece?
+office_business,Write a polite follow-up message to your manager regarding onboarding logistics.
+coding_technical,"Design a serverless architecture for an inventory management system using Kafka and PostgreSQL, covering fault tolerance, data consistency, and scaling under peak load."
+coding_technical,Debug this issue: a TypeScript function that flattens a nested dictionary works for most inputs but fails on edge cases. What should I check?
+coding_technical,Write a Python function that sorts a list of tuples.
+office_business,Draft a risk assessment summary for a team restructuring.
+coding_technical,Debug this issue: a Python function that reverses a string works for most inputs but fails on edge cases. What should I check?
+coding_technical,Explain the difference between a class and a linked list in SQL.
+data_analysis,Analyze the trend in net promoter score over the trailing 4 quarters and suggest two hypotheses for what's driving it.
+coding_technical,Explain the difference between a class and a queue in C++.
+office_business,Write a professional email to a client about a data privacy update.
+office_business,Write a polite follow-up message to a job candidate regarding an internal policy update.
+data_analysis,Analyze the trend in daily active users over the past 3 quarters and suggest two hypotheses for what's driving it.
+data_analysis,"Given that trial-to-paid conversion dropped 5% this quarter, what might be driving the change in average order value?"
+general_knowledge,What is the capital of Thailand?
+coding_technical,Write a TypeScript function that flattens a nested dictionary.
+misc,What is 527 plus 682?
+coding_technical,Compare synchronous code and a set for a system handling a payment processing pipeline.
+coding_technical,Write unit tests in Java for a function that sorts a list of tuples.
+coding_technical,"What is the time complexity of binary search, and when would you choose it over alternatives?"
+general_knowledge,Who invented the microscope?
+general_knowledge,What year did the founding of the United Nations happen?
+data_analysis,"Given that signups doubled in the last month, what might be driving the change in daily active users?"
+coding_technical,Write unit tests in Rust for a function that converts a string to title case.
+coding_technical,"Design a multi-tenant architecture for a video streaming platform using Kafka and PostgreSQL, covering fault tolerance, data consistency, and scaling under peak load."
+misc,What is 384 plus 705?
+data_analysis,Analyze the trend in churn rate over the last 12 months and suggest two hypotheses for what's driving it.
+general_knowledge,Translate 'how much does this cost' into Arabic.
+general_knowledge,What is the capital of Norway?
+coding_technical,Refactor a TypeScript function that converts a string to title case to improve performance.
+office_business,Write a polite follow-up message to a vendor regarding Q3 budget approval.
+data_analysis,Analyze the trend in daily active users over the trailing 4 quarters and suggest two hypotheses for what's driving it.
+general_knowledge,Translate 'see you soon' into Polish.
+data_analysis,Analyze the trend in monthly active users over Q1 and Q2 and suggest two hypotheses for what's driving it.
+coding_technical,Debug this issue: a Go function that converts a string to title case works for most inputs but fails on edge cases. What should I check?
+coding_technical,Compare an array and a linked list for a system handling an inventory management system.
+data_analysis,"Given that refund requests rose 8% after the last release, what might be driving the change in monthly active users?"
+creative_support,A customer says their a noise-cancelling headset isn't working and it stopped syncing yesterday. Write a helpful support response.
+coding_technical,"Design a serverless architecture for a video streaming platform using AWS Lambda and DynamoDB, covering fault tolerance, data consistency, and scaling under peak load."
+creative_support,A customer says their a wireless keyboard isn't working and it stopped syncing yesterday. Write a helpful support response.
+misc,What is 69 plus 444?
+coding_technical,Compare a mutex and a set for a system handling a video streaming platform.
+general_knowledge,What year did the invention of the internet happen?
+coding_technical,Compare an array and GraphQL for a system handling a real-time chat application.
+misc,What is 945 plus 644?
+coding_technical,"Design a event-driven architecture for a ride-sharing dispatch system using Redis and gRPC, covering fault tolerance, data consistency, and scaling under peak load."
+creative_support,A customer says their a fitness tracking ring isn't working and it disconnects from Wi-Fi randomly. Write a helpful support response.
+creative_support,A customer says their a travel adapter with USB-C isn't working and the battery drains in an hour. Write a helpful support response.
+office_business,Write a polite follow-up message to your manager regarding an upcoming product launch.
+coding_technical,Explain the difference between a mutex and a struct in TypeScript.
+general_knowledge,What is the capital of Poland?
+office_business,Write a polite follow-up message to a new hire regarding a security incident.
+creative_support,"Plan a conference booth for a regional sales team of 25 with a budget of $120,000, including a rough timeline and vendor checklist."
+creative_support,"Plan a team offsite for 30 summer interns with a budget of $500, including a rough timeline and vendor checklist."
+misc,What is 969 plus 821?
+coding_technical,Refactor a C++ function that removes duplicates from a list to improve memory usage.
+general_knowledge,What year did the launch of the first satellite happen?
+coding_technical,Compare synchronous code and a linked list for a system handling an inventory management system.
+general_knowledge,Who invented the printing press?
+misc,What is 320 plus 67?
+office_business,Write a professional email to a job candidate about a change in vendor terms.
+office_business,Draft a performance review summary for a supplier evaluation.
+data_analysis,"Given that trial-to-paid conversion dropped 5% this quarter, what might be driving the change in net promoter score?"
+coding_technical,Compare synchronous code and a set for a system handling a recommendation engine.
+misc,What is 727 plus 834?
+coding_technical,Write unit tests in Python for a function that merges two sorted lists.
+general_knowledge,What year did the first commercial flight happen?
+office_business,Write a polite follow-up message to a former colleague regarding Q3 budget approval.
+misc,"Walk me through the steps to plan a cross-country move, covering the key decisions at each stage."
+data_analysis,What SQL query would return the five most common support ticket categories?
+creative_support,"Plan a product launch party for 40 remote employees with a budget of $500, including a rough timeline and vendor checklist."
+general_knowledge,Translate 'can you help me please' into Mandarin.
+misc,"Rewrite this sentence more concisely: 'Owing to the circumstances that have arisen as a direct result of the recent system outage, a number of customers have experienced a disruption in service.'"
+office_business,Draft a meeting agenda for a compliance review.
+general_knowledge,Translate 'good morning' into French.
+coding_technical,Debug this issue: a Swift function that parses a CSV file works for most inputs but fails on edge cases. What should I check?
+coding_technical,Debug this issue: a Go function that implements a binary search works for most inputs but fails on edge cases. What should I check?
+coding_technical,Write unit tests in TypeScript for a function that converts a string to title case.
+data_analysis,"Given that customer support response times improved by 20% last month, what might be driving the change in average order value?"
+coding_technical,"Design a monolithic architecture for a multi-region data replication service using Kubernetes and RabbitMQ, covering fault tolerance, data consistency, and scaling under peak load."
+data_analysis,Analyze the trend in average order value over the trailing 4 quarters and suggest two hypotheses for what's driving it.
+office_business,Draft a risk assessment summary for a product launch.
+office_business,Write a polite follow-up message to a former colleague regarding a pricing change.
+office_business,Draft a vendor comparison brief for a supplier evaluation.
+coding_technical,Write unit tests in Swift for a function that counts word frequency in a text.
+misc,What is 258 plus 236?
+coding_technical,Refactor a Go function that converts a string to title case to improve testability.
+coding_technical,Compare an array and a process for a system handling an online auction platform.
+general_knowledge,Who invented radar?
+coding_technical,Refactor a Ruby function that checks if a number is prime to improve error handling.
+creative_support,A customer says their a standing desk isn't working and the app keeps crashing. Write a helpful support response.
+misc,List three pros and three cons of monorepos.
+misc,What is 382 plus 96?
+office_business,Write a professional email to a supplier about onboarding logistics.
+coding_technical,Write unit tests in Java for a function that implements a binary search.
+misc,Define 'latency' in one sentence.
+office_business,Write a professional email to a job candidate about a new expense policy.
+coding_technical,Explain the difference between a mutex and a struct in C++.
+misc,What is 145 plus 675?
+office_business,Write a professional email to a new hire about onboarding logistics.
+coding_technical,Write unit tests in JavaScript for a function that counts word frequency in a text.
+coding_technical,"Design a serverless architecture for a multi-region data replication service using AWS Lambda and DynamoDB, covering fault tolerance, data consistency, and scaling under peak load."
+creative_support,"Plan a quarterly town hall for a group of enterprise clients with a budget of $50,000, including a rough timeline and vendor checklist."
+coding_technical,Debug this issue: a C++ function that flattens a nested dictionary works for most inputs but fails on edge cases. What should I check?
+creative_support,"Plan a quarterly town hall for a group of enterprise clients with a budget of $500, including a rough timeline and vendor checklist."
+coding_technical,Write unit tests in JavaScript for a function that reverses a string.
+office_business,Summarize the key points from a discussion about an upcoming product launch into three action items.
+office_business,Write a professional email to a job candidate about an office relocation.
+data_analysis,"Given that trial-to-paid conversion dropped 5% this quarter, what might be driving the change in conversion rate?"
+creative_support,"Plan a customer advisory board dinner for 15 new hires with a budget of $300, including a rough timeline and vendor checklist."
+data_analysis,"Given that cart abandonment rate increased 10% after the checkout redesign, what might be driving the change in daily active users?"
+coding_technical,Explain the difference between a mutex and a process in Rust.
+creative_support,"Plan a conference booth for 40 remote employees with a budget of $1,200, including a rough timeline and vendor checklist."
+coding_technical,Debug this issue: a C++ function that computes the nth Fibonacci number works for most inputs but fails on edge cases. What should I check?
+misc,What is 34 plus 329?
+office_business,Draft a onboarding checklist for an internal audit.
+office_business,Write a polite follow-up message to a supplier regarding a data privacy update.
+coding_technical,Write a Swift function that parses a CSV file.
+coding_technical,Debug this issue: a Swift function that sorts a list of tuples works for most inputs but fails on edge cases. What should I check?
+misc,Define 'quorum' in one sentence.
+office_business,Summarize the key points from a discussion about a data privacy update into three action items.
+coding_technical,Write unit tests in Java for a function that checks if two strings are anagrams.
+general_knowledge,Who invented the airplane?
+coding_technical,Compare REST and GraphQL for a system handling an inventory management system.
+coding_technical,Explain the difference between a thread and a process in JavaScript.
+data_analysis,"Given that revenue grew 12% quarter over quarter, what might be driving the change in conversion rate?"
+coding_technical,Write unit tests in Rust for a function that merges two sorted lists.
+misc,What is 772 plus 158?
+coding_technical,Write a Java function that finds the longest common subsequence.
+misc,What is 28 plus 223?
+coding_technical,Explain the difference between synchronous code and a set in JavaScript.
+misc,What is 100 plus 298?
+office_business,Write a professional email to a former colleague about a project deadline extension.
+data_analysis,What SQL query would return average session duration by device type?
+data_analysis,"Given that mobile app downloads tripled after the ad campaign, what might be driving the change in net promoter score?"
+creative_support,"Plan a quarterly town hall for a regional sales team of 25 with a budget of $1,200, including a rough timeline and vendor checklist."
+coding_technical,Write a Rust function that flattens a nested dictionary.
+coding_technical,Explain the difference between a class and a semaphore in Swift.
+creative_support,A customer says their a fitness tracking ring isn't working and the buttons stopped responding. Write a helpful support response.
+data_analysis,"Given that signups doubled in the last month, what might be driving the change in monthly active users?"
+coding_technical,Debug this issue: a Go function that computes the nth Fibonacci number works for most inputs but fails on edge cases. What should I check?
+office_business,Write a polite follow-up message to a former colleague regarding a scheduling conflict.
+data_analysis,Analyze the trend in churn rate over Q1 and Q2 and suggest two hypotheses for what's driving it.
+office_business,Draft a onboarding checklist for a vendor negotiation.
+misc,List three pros and three cons of on-call rotations.
+creative_support,A customer says their a standing desk isn't working and it won't turn on. Write a helpful support response.
+coding_technical,Explain the difference between an array and a struct in TypeScript.
+coding_technical,Explain the difference between a class and a queue in SQL.
+coding_technical,Write unit tests in Python for a function that removes duplicates from a list.
+coding_technical,Compare synchronous code and GraphQL for a system handling a ride-sharing dispatch system.
+coding_technical,Explain the difference between an array and GraphQL in Java.
+general_knowledge,Translate 'good morning' into Hindi.
+creative_support,"Plan a quarterly town hall for a group of enterprise clients with a budget of $2,000, including a rough timeline and vendor checklist."
+misc,"Walk me through the steps to choose between two competing job offers, covering the key decisions at each stage."
+general_knowledge,Translate 'where is the train station' into Russian.
+coding_technical,Write unit tests in JavaScript for a function that computes the nth Fibonacci number.
+coding_technical,Explain the difference between a list and a semaphore in SQL.
+data_analysis,"Given that refund requests rose 8% after the last release, what might be driving the change in average order value?"
+misc,Define 'denormalization' in one sentence.
+creative_support,"Plan a team offsite for a regional sales team of 25 with a budget of $120,000, including a rough timeline and vendor checklist."
+general_knowledge,Translate 'happy birthday' into Polish.
+data_analysis,Analyze the trend in churn rate over the trailing 4 quarters and suggest two hypotheses for what's driving it.
+office_business,Draft a project status update for an internal audit.
+general_knowledge,Translate 'where is the train station' into Japanese.
+coding_technical,"Design a event-driven architecture for a real-time chat application using Kafka and PostgreSQL, covering fault tolerance, data consistency, and scaling under peak load."
+general_knowledge,What is the capital of Croatia?
+misc,What is 139 plus 814?
+creative_support,"Plan a conference booth for 40 remote employees with a budget of $500, including a rough timeline and vendor checklist."
+misc,What is 364 plus 935?
+data_analysis,Analyze the trend in net promoter score over the last 6 months and suggest two hypotheses for what's driving it.
+creative_support,"Plan a quarterly town hall for 15 new hires with a budget of $1,200, including a rough timeline and vendor checklist."
+coding_technical,Debug this issue: a Python function that converts a string to title case works for most inputs but fails on edge cases. What should I check?
+coding_technical,Explain the difference between a class and GraphQL in Java.
+creative_support,"Plan an employee wellness day for a group of enterprise clients with a budget of $300, including a rough timeline and vendor checklist."
+coding_technical,Write a Go function that computes the nth Fibonacci number.
+office_business,Write a professional email to your manager about an internal policy update.
+coding_technical,Write unit tests in C++ for a function that merges two sorted lists.
+misc,Define 'backpressure' in one sentence.
+creative_support,A customer says their a noise-cancelling headset isn't working and it won't turn on. Write a helpful support response.
+coding_technical,Compare a class and a semaphore for a system handling an online auction platform.
+creative_support,Write a short story about a chef who cooks memories instead of meals.
+misc,What is 298 plus 16?
+creative_support,A customer says their a smart pet feeder isn't working and it overheats after 10 minutes. Write a helpful support response.
+office_business,Write a professional email to the finance team about a new expense policy.
+coding_technical,Write a JavaScript function that reverses a string.
+coding_technical,Write unit tests in C++ for a function that sorts a list of tuples.
+misc,What is 749 plus 831?
+creative_support,A customer says their a standing desk isn't working and the screen flickers constantly. Write a helpful support response.
+data_analysis,"Given that customer support response times improved by 20% last month, what might be driving the change in customer lifetime value?"
+general_knowledge,What is the capital of New Zealand?
+misc,What is 564 plus 394?
+coding_technical,"Design a monolithic architecture for a multi-region data replication service using Redis and gRPC, covering fault tolerance, data consistency, and scaling under peak load."
+misc,What is 689 plus 911?
+coding_technical,Write a Python function that counts word frequency in a text.
+data_analysis,"Given that mobile app downloads tripled after the ad campaign, what might be driving the change in conversion rate?"
+coding_technical,Refactor a Swift function that flattens a nested dictionary to improve readability.
+coding_technical,"Design a microservices architecture for a multi-region data replication service using Kubernetes and RabbitMQ, covering fault tolerance, data consistency, and scaling under peak load."
+coding_technical,"Design a serverless architecture for a video streaming platform using Redis and gRPC, covering fault tolerance, data consistency, and scaling under peak load."
+creative_support,"Plan a customer advisory board dinner for 40 remote employees with a budget of $2,000, including a rough timeline and vendor checklist."
+office_business,Write a professional email to a vendor about onboarding logistics.
+data_analysis,"Given that cart abandonment rate increased 10% after the checkout redesign, what might be driving the change in net promoter score?"
+data_analysis,Analyze the trend in gross margin over the last fiscal year and suggest two hypotheses for what's driving it.
+coding_technical,Refactor a Go function that checks if a number is prime to improve testability.
+misc,What is 625 plus 797?
+coding_technical,Write unit tests in JavaScript for a function that parses a CSV file.
+coding_technical,Compare a thread and a semaphore for a system handling a video streaming platform.
+office_business,Draft a memo for a compliance review.
+general_knowledge,Translate 'where is the nearest hospital' into Polish.
+coding_technical,Refactor a SQL function that checks if a number is prime to improve readability.
+coding_technical,Compare a stack and a linked list for a system handling a payment processing pipeline.
+coding_technical,Write unit tests in Python for a function that finds the longest common subsequence.
+general_knowledge,Who invented the computer mouse?
+creative_support,"Plan a conference booth for 15 new hires with a budget of $1,200, including a rough timeline and vendor checklist."
+data_analysis,"Given that cart abandonment rate increased 10% after the checkout redesign, what might be driving the change in customer lifetime value?"
+coding_technical,Refactor a JavaScript function that flattens a nested dictionary to improve error handling.
+creative_support,A customer says their a smart thermostat isn't working and the screen flickers constantly. Write a helpful support response.
+coding_technical,Refactor a Swift function that sorts a list of tuples to improve readability.
+data_analysis,"Given that trial-to-paid conversion dropped 5% this quarter, what might be driving the change in daily active users?"
+general_knowledge,Translate 'good morning' into Dutch.
+coding_technical,"What is the time complexity of quicksort, and when would you choose it over alternatives?"
+coding_technical,"Design a serverless architecture for a recommendation engine using Kubernetes and RabbitMQ, covering fault tolerance, data consistency, and scaling under peak load."
+data_analysis,"Given that trial-to-paid conversion dropped 5% this quarter, what might be driving the change in gross margin?"
+coding_technical,Compare a mutex and a process for a system handling a recommendation engine.
+misc,What is 386 plus 877?
+creative_support,A customer says their a standing desk isn't working and it stopped syncing yesterday. Write a helpful support response.
+creative_support,"Plan a partner appreciation event for a group of enterprise clients with a budget of $2,000, including a rough timeline and vendor checklist."
+data_analysis,Analyze the trend in gross margin over the last 12 months and suggest two hypotheses for what's driving it.
+office_business,Draft a risk assessment summary for a company town hall.
+coding_technical,Compare a thread and a set for a system handling a video streaming platform.
+misc,Define 'garbage collection' in one sentence.
+coding_technical,Write a Ruby function that computes the nth Fibonacci number.
+coding_technical,Write a JavaScript function that checks if two strings are anagrams.
+misc,"Walk me through the steps to onboard a new employee remotely, covering the key decisions at each stage."
+data_analysis,"Given that customer support response times improved by 20% last month, what might be driving the change in monthly active users?"
+data_analysis,Analyze the trend in net promoter score over the past 3 quarters and suggest two hypotheses for what's driving it.
+data_analysis,What SQL query would return users who churned in the last 30 days?
+general_knowledge,Translate 'good morning' into German.
+misc,What is 339 plus 632?
+misc,What is 186 plus 119?
+office_business,Draft a project status update for a Q3 all-hands meeting.
+misc,What is 53 plus 861?
+coding_technical,Write a Java function that counts word frequency in a text.
+coding_technical,Explain the difference between a thread and a process in Java.
+misc,What is 50 plus 467?
+coding_technical,Compare a thread and a struct for a system handling an online auction platform.
+office_business,Write a professional email to the finance team about an office relocation.
+coding_technical,"Design a event-driven architecture for a payment processing pipeline using Kafka and PostgreSQL, covering fault tolerance, data consistency, and scaling under peak load."
+coding_technical,Debug this issue: a Go function that detects a cycle in a linked list works for most inputs but fails on edge cases. What should I check?
+coding_technical,Compare a mutex and a set for a system handling a recommendation engine.
+data_analysis,Analyze the trend in net promoter score over the last 12 months and suggest two hypotheses for what's driving it.
+coding_technical,Refactor a C++ function that parses a CSV file to improve readability.
+creative_support,A customer says their a wireless keyboard isn't working and the battery drains in an hour. Write a helpful support response.
+creative_support,"Plan a product launch party for a board of 12 investors with a budget of $2,000, including a rough timeline and vendor checklist."
+creative_support,"Plan a customer advisory board dinner for 30 summer interns with a budget of $120,000, including a rough timeline and vendor checklist."
+misc,What is 157 plus 907?
+coding_technical,Compare a stack and a process for a system handling a multi-region data replication service.
+misc,What is 822 plus 240?
+coding_technical,"Design a serverless architecture for an online auction platform using Redis and gRPC, covering fault tolerance, data consistency, and scaling under peak load."
+coding_technical,"Design a microservices architecture for a video streaming platform using Kafka and PostgreSQL, covering fault tolerance, data consistency, and scaling under peak load."
+office_business,Write a professional email to the legal team about onboarding logistics.
+misc,What is 749 plus 67?
+general_knowledge,Translate 'good morning' into Polish.
+general_knowledge,What is the capital of Ecuador?
+data_analysis,"Given that support tickets dropped 15% after the redesign, what might be driving the change in monthly active users?"
+office_business,Write a professional email to a job candidate about a security incident.
+office_business,Draft a press release draft for a team restructuring.
+office_business,Draft a memo for a Q3 all-hands meeting.
+data_analysis,Analyze the trend in daily active users over the last 12 months and suggest two hypotheses for what's driving it.
+coding_technical,Write a Java function that validates an email address.
+coding_technical,Explain the difference between a list and a struct in JavaScript.
+coding_technical,Explain the difference between a thread and GraphQL in TypeScript.
+coding_technical,Write unit tests in Rust for a function that sorts a list of tuples.
+coding_technical,Explain the difference between synchronous code and a process in TypeScript.
+coding_technical,Write unit tests in JavaScript for a function that converts a string to title case.
+coding_technical,Write unit tests in TypeScript for a function that finds the longest common subsequence.
+creative_support,"Plan an employee wellness day for 15 new hires with a budget of $2,000, including a rough timeline and vendor checklist."
+coding_technical,Write a TypeScript function that parses a CSV file.
+general_knowledge,What is the capital of Latvia?
+general_knowledge,What year did the opening of the Suez Canal happen?
+coding_technical,Compare a mutex and a semaphore for a system handling a payment processing pipeline.
+office_business,Draft a press release draft for an internal audit.
+misc,What is 383 plus 966?
+creative_support,Write a short story about a mapmaker charting a country that keeps moving.
+office_business,Draft a vendor comparison brief for a company town hall.
+office_business,Write a polite follow-up message to your manager regarding a change in vendor terms.
+general_knowledge,Translate 'I am lost' into Thai.
+coding_technical,Debug this issue: a Ruby function that removes duplicates from a list works for most inputs but fails on edge cases. What should I check?
+office_business,Draft a meeting agenda for an internal audit.
+creative_support,"Plan a partner appreciation event for a regional sales team of 25 with a budget of $1,200, including a rough timeline and vendor checklist."
+general_knowledge,What is the capital of Argentina?
+misc,Define 'checksum' in one sentence.
+creative_support,"Plan a product launch party for 500 trade show visitors with a budget of $1,200, including a rough timeline and vendor checklist."
+coding_technical,Write a SQL function that checks if a number is prime.
+misc,List three pros and three cons of unlimited PTO policies.
+creative_support,A customer says their a noise-cancelling headset isn't working and the screen flickers constantly. Write a helpful support response.
+office_business,Write a professional email to an investor about a new expense policy.
+office_business,Draft a memo for a vendor negotiation.
+general_knowledge,What is the capital of Finland?
+office_business,Draft a meeting agenda for a new client onboarding.
+coding_technical,Explain the difference between a list and GraphQL in Ruby.
+office_business,Write a polite follow-up message to the legal team regarding a partnership proposal.
+misc,What is 137 plus 921?
+office_business,Draft a press release draft for a supplier evaluation.
+creative_support,"Plan a partner appreciation event for a board of 12 investors with a budget of $50,000, including a rough timeline and vendor checklist."
+creative_support,Write a product description for a noise-cancelling headset aimed at first-time buyers.
+coding_technical,Write a TypeScript function that sorts a list of tuples.
+creative_support,A customer says their a smart pet feeder isn't working and the buttons stopped responding. Write a helpful support response.
+data_analysis,"Given that mobile app downloads tripled after the ad campaign, what might be driving the change in monthly active users?"
+misc,What is 840 plus 901?
+coding_technical,Debug this issue: a Ruby function that implements a binary search works for most inputs but fails on edge cases. What should I check?
+coding_technical,Debug this issue: a C++ function that detects a cycle in a linked list works for most inputs but fails on edge cases. What should I check?
+misc,What is 598 plus 656?
+coding_technical,Explain the difference between REST and asynchronous code in JavaScript.
+coding_technical,Refactor a Python function that reverses a string to improve performance.
+coding_technical,Compare an array and a semaphore for a system handling a real-time chat application.
+creative_support,"Plan an employee wellness day for a regional sales team of 25 with a budget of $120,000, including a rough timeline and vendor checklist."
+misc,What is 395 plus 716?
+coding_technical,Explain the difference between a mutex and a process in SQL.
+office_business,Summarize the key points from a discussion about onboarding logistics into three action items.
+creative_support,A customer says their a fitness tracking ring isn't working and it stopped syncing yesterday. Write a helpful support response.
+coding_technical,Explain the difference between a class and a struct in Ruby.
+coding_technical,Write a Java function that sorts a list of tuples.
+coding_technical,Debug this issue: a Rust function that computes the nth Fibonacci number works for most inputs but fails on edge cases. What should I check?
+coding_technical,"Design a multi-tenant architecture for a recommendation engine using Kubernetes and RabbitMQ, covering fault tolerance, data consistency, and scaling under peak load."
+creative_support,"Plan a customer appreciation dinner for a regional sales team of 25 with a budget of $8,500, including a rough timeline and vendor checklist."
+coding_technical,Debug this issue: a C++ function that checks if two strings are anagrams works for most inputs but fails on edge cases. What should I check?
+coding_technical,Compare synchronous code and a process for a system handling a ride-sharing dispatch system.
+coding_technical,Refactor a Ruby function that computes the nth Fibonacci number to improve readability.
+coding_technical,Compare a class and a struct for a system handling an online auction platform.
+coding_technical,Explain the difference between a class and a struct in TypeScript.
+general_knowledge,Who invented the steam engine?
+creative_support,"Plan a customer advisory board dinner for 15 new hires with a budget of $2,000, including a rough timeline and vendor checklist."
+office_business,Draft a risk assessment summary for a Q3 all-hands meeting.
+data_analysis,Analyze the trend in daily active users over the last fiscal year and suggest two hypotheses for what's driving it.
+data_analysis,Analyze the trend in gross margin over the last 6 months and suggest two hypotheses for what's driving it.
+data_analysis,"Given that refund requests rose 8% after the last release, what might be driving the change in gross margin?"
+coding_technical,Write a JavaScript function that detects a cycle in a linked list.
+coding_technical,Write a Java function that parses a CSV file.
+office_business,Write a polite follow-up message to an investor regarding a pricing change.
+coding_technical,Explain the difference between a list and a semaphore in Rust.
+creative_support,Write a short story about a robot learning to paint.
+office_business,Draft a project status update for a vendor negotiation.
+creative_support,"Plan a customer appreciation dinner for 40 remote employees with a budget of $500, including a rough timeline and vendor checklist."
+creative_support,A customer says their a coffee grinder isn't working and the buttons stopped responding. Write a helpful support response.
+coding_technical,Explain the difference between REST and a linked list in Java.
+coding_technical,Refactor a JavaScript function that sorts a list of tuples to improve readability.
+coding_technical,Write a TypeScript function that converts a string to title case.
+misc,What is 119 plus 268?
+office_business,Write a professional email to a job candidate about an upcoming product launch.
+data_analysis,"Given that support tickets dropped 15% after the redesign, what might be driving the change in churn rate?"
+office_business,Write a professional email to a former colleague about a security incident.
+office_business,Draft a vendor comparison brief for a vendor negotiation.
+coding_technical,Compare synchronous code and a process for a system handling an online auction platform.
+coding_technical,Write unit tests in SQL for a function that converts a string to title case.
+office_business,Write a professional email to a supplier about a change in vendor terms.
+misc,What is 99 plus 985?
+coding_technical,Debug this issue: a Python function that removes duplicates from a list works for most inputs but fails on edge cases. What should I check?
+general_knowledge,What is the capital of Philippines?
+office_business,Draft a meeting agenda for a team restructuring.
+coding_technical,Write a Swift function that removes duplicates from a list.
+coding_technical,Write unit tests in Go for a function that parses a CSV file.
+misc,Define 'throughput' in one sentence.
+misc,What is 395 plus 414?
+general_knowledge,Who invented the light bulb?
+misc,List three pros and three cons of remote work.
+creative_support,"Plan an employee wellness day for 30 summer interns with a budget of $500, including a rough timeline and vendor checklist."
+office_business,Write a polite follow-up message to a vendor regarding a change in vendor terms.
+coding_technical,Write unit tests in JavaScript for a function that checks if two strings are anagrams.
+coding_technical,Explain the difference between REST and a linked list in Swift.
+office_business,Draft a risk assessment summary for a new client onboarding.
+coding_technical,Debug this issue: a Ruby function that converts a string to title case works for most inputs but fails on edge cases. What should I check?
+coding_technical,"Design a event-driven architecture for a recommendation engine using Redis and gRPC, covering fault tolerance, data consistency, and scaling under peak load."
+creative_support,"Plan a team offsite for a board of 12 investors with a budget of $50,000, including a rough timeline and vendor checklist."
+office_business,Write a professional email to a client about Q3 budget approval.
+coding_technical,Debug this issue: a Java function that finds the longest common subsequence works for most inputs but fails on edge cases. What should I check?
+office_business,Write a polite follow-up message to the legal team regarding an internal policy update.
+misc,What is 135 plus 105?
+data_analysis,What SQL query would return customers who haven't logged in for 60 days?
+general_knowledge,What year did the first email ever sent happen?
+coding_technical,Write a Swift function that checks if a number is prime.
+coding_technical,Refactor a C++ function that finds the longest common subsequence to improve testability.
+creative_support,Write a short story about a gardener growing forgotten words.
+misc,What is 416 plus 580?
+misc,What is 998 plus 185?
+general_knowledge,Translate 'see you soon' into Korean.
+office_business,Write a polite follow-up message to an investor regarding a project deadline extension.
+data_analysis,"Given that mobile app downloads tripled after the ad campaign, what might be driving the change in customer lifetime value?"
+coding_technical,Refactor a JavaScript function that computes the nth Fibonacci number to improve memory usage.
+office_business,Write a professional email to a client about a change in vendor terms.
+general_knowledge,What year did the first moon landing happen?
+office_business,Draft a onboarding checklist for a supplier evaluation.
+coding_technical,Write unit tests in SQL for a function that parses a CSV file.
+misc,What is 63 plus 104?
+misc,"Rewrite this sentence more concisely: 'For the purposes of clarity and in order to avoid any potential misunderstanding, we felt it necessary to reiterate the policy in its entirety.'"
+coding_technical,Compare a thread and a queue for a system handling a real-time chat application.
+creative_support,Write a product description for a smart thermostat aimed at first-time buyers.
+coding_technical,Debug this issue: a Swift function that reverses a string works for most inputs but fails on edge cases. What should I check?
+data_analysis,Analyze the trend in customer lifetime value over the last 12 months and suggest two hypotheses for what's driving it.
+office_business,Write a professional email to a job candidate about Q3 budget approval.
+data_analysis,"Given that customer support response times improved by 20% last month, what might be driving the change in daily active users?"
+creative_support,A customer says their a noise-cancelling headset isn't working and the battery drains in an hour. Write a helpful support response.
+office_business,Write a polite follow-up message to a new hire regarding an office relocation.
+coding_technical,Compare a class and GraphQL for a system handling an online auction platform.
+creative_support,Write a product description for a travel adapter with USB-C aimed at first-time buyers.
+coding_technical,Compare a stack and GraphQL for a system handling a recommendation engine.
+creative_support,A customer says their a fitness tracking ring isn't working and the screen flickers constantly. Write a helpful support response.
+coding_technical,Debug this issue: a SQL function that checks if a number is prime works for most inputs but fails on edge cases. What should I check?
+coding_technical,Explain the difference between a stack and a linked list in Java.
+coding_technical,Compare a stack and a process for a system handling an online auction platform.
+coding_technical,Refactor a SQL function that reverses a string to improve error handling.
+data_analysis,Analyze the trend in customer lifetime value over the trailing 4 quarters and suggest two hypotheses for what's driving it.
+misc,What is 191 plus 983?
+creative_support,Write a product description for a wireless keyboard aimed at first-time buyers.
+misc,What is 845 plus 623?
+coding_technical,Debug this issue: a Java function that converts a string to title case works for most inputs but fails on edge cases. What should I check?
+general_knowledge,Translate 'I don't understand' into Hindi.
+misc,What is 833 plus 157?
+misc,"Rewrite this sentence more concisely: 'Due to the fact that we are currently experiencing a high volume of requests at this point in time, please be advised that response times may be delayed.'"
+general_knowledge,Translate 'I would like a coffee' into Mandarin.
+coding_technical,Explain the difference between synchronous code and a struct in Go.
+office_business,Write a professional email to the finance team about a pricing change.
+coding_technical,Refactor a TypeScript function that parses a CSV file to improve testability.
+office_business,Write a professional email to a client about an upcoming product launch.
+creative_support,A customer says their a portable espresso maker isn't working and it disconnects from Wi-Fi randomly. Write a helpful support response.
+coding_technical,Refactor a Rust function that validates an email address to improve error handling.
+general_knowledge,What year did the fall of the Berlin Wall happen?
+coding_technical,"Design a multi-tenant architecture for a ride-sharing dispatch system using Kafka and PostgreSQL, covering fault tolerance, data consistency, and scaling under peak load."
+data_analysis,"Given that refund requests rose 8% after the last release, what might be driving the change in net promoter score?"
+creative_support,"Plan a customer appreciation dinner for 500 trade show visitors with a budget of $120,000, including a rough timeline and vendor checklist."
+coding_technical,Refactor a TypeScript function that checks if two strings are anagrams to improve error handling.
+creative_support,A customer says their a folding electric bike isn't working and it stopped syncing yesterday. Write a helpful support response.
+coding_technical,Compare a mutex and a linked list for a system handling a real-time chat application.
+coding_technical,Refactor a TypeScript function that merges two sorted lists to improve error handling.
+coding_technical,Explain the difference between a thread and a semaphore in C++.
+coding_technical,Debug this issue: a Swift function that implements a binary search works for most inputs but fails on edge cases. What should I check?
+coding_technical,Write unit tests in JavaScript for a function that validates an email address.
+misc,What is 586 plus 432?
+general_knowledge,Who invented the telephone?
+coding_technical,Refactor a Swift function that implements a binary search to improve readability.
+general_knowledge,Translate 'this is delicious' into French.
+misc,What is 477 plus 211?
+misc,What is 430 plus 332?
+office_business,Draft a memo for a product launch.
+office_business,Write a polite follow-up message to a supplier regarding a change in vendor terms.
+misc,What is 367 plus 75?
+office_business,Write a professional email to a supplier about a data privacy update.
+creative_support,"Plan an employee wellness day for a group of enterprise clients with a budget of $500, including a rough timeline and vendor checklist."
+creative_support,A customer says their a folding electric bike isn't working and it disconnects from Wi-Fi randomly. Write a helpful support response.
+general_knowledge,Translate 'can you help me please' into Korean.
+creative_support,"Plan a team offsite for a group of enterprise clients with a budget of $8,500, including a rough timeline and vendor checklist."
+coding_technical,Refactor a JavaScript function that checks if two strings are anagrams to improve memory usage.
+coding_technical,Write a C++ function that reverses a string.
+coding_technical,Debug this issue: a Swift function that detects a cycle in a linked list works for most inputs but fails on edge cases. What should I check?
+creative_support,Write a short story about an astronaut who forgot how to feel gravity.
+misc,"Walk me through the steps to plan a two-week trip abroad, covering the key decisions at each stage."
+coding_technical,"Design a microservices architecture for a ride-sharing dispatch system using Kafka and PostgreSQL, covering fault tolerance, data consistency, and scaling under peak load."
+office_business,Write a polite follow-up message to the legal team regarding a change in vendor terms.
+coding_technical,Explain the difference between a list and asynchronous code in Go.
+general_knowledge,Translate 'have a safe trip' into Portuguese.
+coding_technical,"Design a monolithic architecture for a ride-sharing dispatch system using AWS Lambda and DynamoDB, covering fault tolerance, data consistency, and scaling under peak load."
+office_business,Write a professional email to a vendor about a change in vendor terms.
+coding_technical,Compare synchronous code and a set for a system handling a multi-region data replication service.
+coding_technical,Explain the difference between a class and a struct in Rust.
+coding_technical,"Design a monolithic architecture for a recommendation engine using AWS Lambda and DynamoDB, covering fault tolerance, data consistency, and scaling under peak load."
+coding_technical,Refactor a TypeScript function that implements a binary search to improve memory usage.
+coding_technical,"What is the time complexity of a hash table lookup, and when would you choose it over alternatives?"
+creative_support,"Plan an employee wellness day for 200 conference attendees with a budget of $50,000, including a rough timeline and vendor checklist."
+data_analysis,"Given that revenue grew 12% quarter over quarter, what might be driving the change in net promoter score?"
+misc,What is 616 plus 766?
+general_knowledge,Translate 'see you tomorrow' into Japanese.
+data_analysis,"Given that revenue grew 12% quarter over quarter, what might be driving the change in daily active users?"
+data_analysis,"Given that mobile app downloads tripled after the ad campaign, what might be driving the change in daily active users?"
+creative_support,"Plan a partner appreciation event for 40 remote employees with a budget of $500, including a rough timeline and vendor checklist."
+creative_support,Write a product description for a standing desk aimed at first-time buyers.
+coding_technical,Write unit tests in Ruby for a function that flattens a nested dictionary.
+data_analysis,Analyze the trend in net promoter score over the last fiscal year and suggest two hypotheses for what's driving it.
+general_knowledge,Translate 'I am lost' into Turkish.
+coding_technical,Debug this issue: a JavaScript function that converts a string to title case works for most inputs but fails on edge cases. What should I check?
+misc,What is 337 plus 155?
+creative_support,"Plan a team offsite for a board of 12 investors with a budget of $500, including a rough timeline and vendor checklist."
+coding_technical,Debug this issue: a Rust function that merges two sorted lists works for most inputs but fails on edge cases. What should I check?
+coding_technical,Debug this issue: a Java function that detects a cycle in a linked list works for most inputs but fails on edge cases. What should I check?
+data_analysis,"Given that customer support response times improved by 20% last month, what might be driving the change in conversion rate?"
+misc,What is 693 plus 336?
+coding_technical,Write unit tests in JavaScript for a function that flattens a nested dictionary.
+creative_support,Write a product description for a smart pet feeder aimed at first-time buyers.
+coding_technical,Explain the difference between an array and a set in Java.
+data_analysis,Analyze the trend in conversion rate over the last 6 months and suggest two hypotheses for what's driving it.
+misc,What is 526 plus 796?
+office_business,Write a professional email to the finance team about a scheduling conflict.
+coding_technical,Write unit tests in Rust for a function that flattens a nested dictionary.
+coding_technical,Write a Java function that checks if two strings are anagrams.
+coding_technical,Write a TypeScript function that removes duplicates from a list.
+misc,"Walk me through the steps to migrate a database with zero downtime, covering the key decisions at each stage."
+creative_support,"Plan an employee wellness day for 200 conference attendees with a budget of $500, including a rough timeline and vendor checklist."
+general_knowledge,Who invented the automobile?
+coding_technical,Debug this issue: a TypeScript function that reverses a string works for most inputs but fails on edge cases. What should I check?
+coding_technical,Write a Python function that removes duplicates from a list.
+data_analysis,"Given that mobile app downloads tripled after the ad campaign, what might be driving the change in gross margin?"
+coding_technical,"Design a microservices architecture for an online auction platform using Kafka and PostgreSQL, covering fault tolerance, data consistency, and scaling under peak load."
+coding_technical,Explain the difference between a list and a struct in TypeScript.
+creative_support,"Plan an employee wellness day for 40 remote employees with a budget of $15,000, including a rough timeline and vendor checklist."
+creative_support,"Plan a team offsite for a group of enterprise clients with a budget of $500, including a rough timeline and vendor checklist."
+general_knowledge,What is the capital of Cambodia?
+data_analysis,Analyze the trend in gross margin over the trailing 4 quarters and suggest two hypotheses for what's driving it.
+misc,Define 'observability' in one sentence.
+misc,What is 590 plus 745?
+data_analysis,Analyze the trend in monthly active users over the last fiscal year and suggest two hypotheses for what's driving it.
+misc,Define 'eventual consistency' in one sentence.
+misc,What is 923 plus 215?
+office_business,Draft a onboarding checklist for a company town hall.
+coding_technical,Explain the difference between synchronous code and a struct in Rust.
+coding_technical,Debug this issue: a Java function that flattens a nested dictionary works for most inputs but fails on edge cases. What should I check?
+coding_technical,Refactor a C++ function that computes the nth Fibonacci number to improve memory usage.
+office_business,Summarize the key points from a discussion about a security incident into three action items.
+creative_support,"Plan a customer appreciation dinner for 30 summer interns with a budget of $500, including a rough timeline and vendor checklist."
+misc,Define 'rate limiting' in one sentence.
+office_business,Write a polite follow-up message to the legal team regarding a pricing change.
+office_business,Write a polite follow-up message to the finance team regarding onboarding logistics.
+coding_technical,Refactor a Swift function that merges two sorted lists to improve readability.
+coding_technical,Debug this issue: a Ruby function that reverses a string works for most inputs but fails on edge cases. What should I check?
+coding_technical,Debug this issue: a C++ function that parses a CSV file works for most inputs but fails on edge cases. What should I check?
+coding_technical,Write unit tests in C++ for a function that counts word frequency in a text.
+misc,List three pros and three cons of trunk-based development.
+coding_technical,Explain the difference between synchronous code and a struct in C++.
+office_business,Write a professional email to a former colleague about a delayed shipment.
+coding_technical,"Design a event-driven architecture for a ride-sharing dispatch system using AWS Lambda and DynamoDB, covering fault tolerance, data consistency, and scaling under peak load."
+coding_technical,Compare a stack and a process for a system handling a ride-sharing dispatch system.
+office_business,Write a professional email to the finance team about Q3 budget approval.
+office_business,Summarize the key points from a discussion about a project deadline extension into three action items.
+coding_technical,"Design a serverless architecture for a multi-region data replication service using Kafka and PostgreSQL, covering fault tolerance, data consistency, and scaling under peak load."
+data_analysis,"Given that signups doubled in the last month, what might be driving the change in net promoter score?"
+coding_technical,Write a Swift function that implements a binary search.
+office_business,Write a polite follow-up message to a former colleague regarding an upcoming product launch.
+coding_technical,Write unit tests in Ruby for a function that computes the nth Fibonacci number.
+office_business,Write a polite follow-up message to a former colleague regarding an internal policy update.
+creative_support,"Plan a quarterly town hall for a board of 12 investors with a budget of $50,000, including a rough timeline and vendor checklist."
+office_business,Write a professional email to a vendor about an upcoming product launch.
+coding_technical,"Design a multi-tenant architecture for a multi-region data replication service using Redis and gRPC, covering fault tolerance, data consistency, and scaling under peak load."
+creative_support,"Plan a product launch party for 30 summer interns with a budget of $8,500, including a rough timeline and vendor checklist."
+misc,What is 307 plus 327?
+misc,What is 345 plus 631?
+misc,Define 'entropy' in one sentence.
+office_business,Write a professional email to a supplier about a scheduling conflict.
+creative_support,"Plan an employee wellness day for 15 new hires with a budget of $50,000, including a rough timeline and vendor checklist."
+general_knowledge,Translate 'see you tomorrow' into Portuguese.
+coding_technical,Explain the difference between an array and a process in Swift.
+coding_technical,Debug this issue: a JavaScript function that counts word frequency in a text works for most inputs but fails on edge cases. What should I check?
+data_analysis,Analyze the trend in customer lifetime value over Q1 and Q2 and suggest two hypotheses for what's driving it.
+general_knowledge,What is the capital of Chile?
+general_knowledge,Who invented vaccination?
+coding_technical,Explain the difference between a stack and a process in JavaScript.
+office_business,Write a professional email to a former colleague about an office relocation.
+misc,List three pros and three cons of open floor plans.
+misc,What is 882 plus 413?
+office_business,Write a polite follow-up message to a new hire regarding a partnership proposal.
+coding_technical,Write unit tests in Java for a function that reverses a string.
+office_business,Draft a project status update for a company town hall.
+office_business,Write a polite follow-up message to the finance team regarding a pricing change.
+data_analysis,Analyze the trend in conversion rate over the trailing 4 quarters and suggest two hypotheses for what's driving it.
+coding_technical,Explain the difference between a list and asynchronous code in TypeScript.
+data_analysis,"Given that signups doubled in the last month, what might be driving the change in average order value?"
+coding_technical,Compare a list and asynchronous code for a system handling a ride-sharing dispatch system.
+creative_support,"Plan a customer appreciation dinner for a board of 12 investors with a budget of $8,500, including a rough timeline and vendor checklist."
+misc,List three pros and three cons of pair programming.
+data_analysis,What SQL query would return users who upgraded their plan last quarter?
+creative_support,A customer says their a folding electric bike isn't working and the buttons stopped responding. Write a helpful support response.
+coding_technical,Write unit tests in C++ for a function that implements a binary search.
+misc,List three pros and three cons of microservices.
+coding_technical,"Design a microservices architecture for a multi-region data replication service using Redis and gRPC, covering fault tolerance, data consistency, and scaling under peak load."
+creative_support,"Plan an employee wellness day for 500 trade show visitors with a budget of $15,000, including a rough timeline and vendor checklist."
+creative_support,"Plan a product launch party for a board of 12 investors with a budget of $120,000, including a rough timeline and vendor checklist."
+misc,What is 191 plus 201?
+misc,"Walk me through the steps to negotiate a raise, covering the key decisions at each stage."
+coding_technical,Write unit tests in Python for a function that validates an email address.
+creative_support,"Plan a partner appreciation event for 200 conference attendees with a budget of $2,000, including a rough timeline and vendor checklist."
+general_knowledge,Translate 'have a safe trip' into Turkish.
+office_business,Write a professional email to a vendor about a security incident.
+creative_support,"Plan an employee wellness day for 30 summer interns with a budget of $50,000, including a rough timeline and vendor checklist."
+coding_technical,"Design a serverless architecture for a recommendation engine using AWS Lambda and DynamoDB, covering fault tolerance, data consistency, and scaling under peak load."
+misc,What is 699 plus 866?
+creative_support,"Plan a partner appreciation event for 500 trade show visitors with a budget of $300, including a rough timeline and vendor checklist."
+data_analysis,"Given that cart abandonment rate increased 10% after the checkout redesign, what might be driving the change in churn rate?"
+creative_support,A customer says their a travel adapter with USB-C isn't working and it won't turn on. Write a helpful support response.
+misc,What is 3 plus 144?
+misc,"Walk me through the steps to set up a home Wi-Fi network, covering the key decisions at each stage."
+coding_technical,"What is the time complexity of Dijkstra's algorithm, and when would you choose it over alternatives?"
+coding_technical,"Design a event-driven architecture for a real-time chat application using Redis and gRPC, covering fault tolerance, data consistency, and scaling under peak load."
+coding_technical,"Design a serverless architecture for a recommendation engine using Redis and gRPC, covering fault tolerance, data consistency, and scaling under peak load."
+misc,What is 48 plus 631?
+creative_support,"Plan a customer appreciation dinner for 500 trade show visitors with a budget of $50,000, including a rough timeline and vendor checklist."
+general_knowledge,What is the capital of Senegal?
+misc,What is 786 plus 176?
+coding_technical,Explain the difference between a thread and a queue in Ruby.
+misc,What is 156 plus 245?
+coding_technical,Explain the difference between a thread and a queue in Rust.
+creative_support,A customer says their a travel adapter with USB-C isn't working and the screen flickers constantly. Write a helpful support response.
+office_business,Write a professional email to a new hire about a scheduling conflict.
+misc,What is 864 plus 42?
+coding_technical,Compare synchronous code and a struct for a system handling a recommendation engine.
+misc,What is 334 plus 644?
+general_knowledge,Translate 'where is the nearest hospital' into Arabic.
+coding_technical,Explain the difference between a list and a struct in Go.
+coding_technical,Refactor a Swift function that computes the nth Fibonacci number to improve memory usage.
+coding_technical,Refactor a C++ function that reverses a string to improve performance.
+creative_support,A customer says their a standing desk isn't working and the battery drains in an hour. Write a helpful support response.
+coding_technical,Compare a mutex and a linked list for a system handling a recommendation engine.
+general_knowledge,Translate 'where is the nearest hospital' into Japanese.
+misc,What is 55 plus 397?
+office_business,Write a polite follow-up message to your manager regarding a new expense policy.
+creative_support,A customer says their a smart pet feeder isn't working and it disconnects from Wi-Fi randomly. Write a helpful support response.
+creative_support,Write a product description for a portable espresso maker aimed at first-time buyers.
+general_knowledge,Translate 'I would like a coffee' into German.
+coding_technical,Explain the difference between synchronous code and asynchronous code in Rust.
+general_knowledge,What is the capital of Uruguay?
+coding_technical,Compare a list and a queue for a system handling a ride-sharing dispatch system.
+creative_support,"Plan a conference booth for a group of enterprise clients with a budget of $15,000, including a rough timeline and vendor checklist."
+coding_technical,Explain the difference between a mutex and a semaphore in C++.
+misc,What is 748 plus 741?
+data_analysis,Analyze the trend in average order value over the last 6 months and suggest two hypotheses for what's driving it.
+coding_technical,"Design a event-driven architecture for an inventory management system using Kafka and PostgreSQL, covering fault tolerance, data consistency, and scaling under peak load."
+coding_technical,Write a Swift function that validates an email address.
+office_business,Summarize the key points from a discussion about Q3 budget approval into three action items.
+coding_technical,Compare a class and a linked list for a system handling a real-time chat application.
+coding_technical,Write a JavaScript function that merges two sorted lists.
+misc,What is 324 plus 79?
+coding_technical,Debug this issue: a TypeScript function that computes the nth Fibonacci number works for most inputs but fails on edge cases. What should I check?
+misc,List three pros and three cons of feature flags.
+creative_support,Write a product description for a folding electric bike aimed at first-time buyers.
+general_knowledge,Translate 'good morning' into Japanese.
+creative_support,"Plan an employee wellness day for 15 new hires with a budget of $120,000, including a rough timeline and vendor checklist."
+office_business,Write a polite follow-up message to your manager regarding a pricing change.
+misc,What is 657 plus 486?
+misc,What is 938 plus 781?
+coding_technical,Explain the difference between an array and a semaphore in Java.
+misc,What is 528 plus 200?
+coding_technical,Debug this issue: a SQL function that reverses a string works for most inputs but fails on edge cases. What should I check?
+data_analysis,"Given that customer support response times improved by 20% last month, what might be driving the change in gross margin?"
+misc,List three pros and three cons of annual performance reviews.
+misc,What is 320 plus 378?
+office_business,Draft a project status update for a supplier evaluation.
+creative_support,"Plan a conference booth for 40 remote employees with a budget of $8,500, including a rough timeline and vendor checklist."
+coding_technical,Compare a thread and a queue for a system handling a video streaming platform.
+data_analysis,"Given that trial-to-paid conversion dropped 5% this quarter, what might be driving the change in churn rate?"
+misc,What is 265 plus 615?
+misc,What is 523 plus 404?
+misc,What is 291 plus 589?
+creative_support,A customer says their a coffee grinder isn't working and it stopped syncing yesterday. Write a helpful support response.
+coding_technical,Explain the difference between a class and a set in TypeScript.
+office_business,Write a polite follow-up message to a supplier regarding an office relocation.
+coding_technical,Refactor a Swift function that sorts a list of tuples to improve error handling.
+coding_technical,Refactor a Rust function that counts word frequency in a text to improve memory usage.
+coding_technical,Compare REST and asynchronous code for a system handling an online auction platform.
+misc,What is 525 plus 787?
+office_business,Draft a vendor comparison brief for an internal audit.
+coding_technical,Refactor a Ruby function that flattens a nested dictionary to improve performance.
+data_analysis,"Given that signups doubled in the last month, what might be driving the change in gross margin?"
+coding_technical,Refactor a TypeScript function that reverses a string to improve testability.
+general_knowledge,What is the capital of Egypt?
+creative_support,A customer says their a wireless keyboard isn't working and it won't turn on. Write a helpful support response.
+creative_support,A customer says their a coffee grinder isn't working and the screen flickers constantly. Write a helpful support response.
+misc,What is 355 plus 762?
+coding_technical,Write a Ruby function that converts a string to title case.
+coding_technical,Refactor a SQL function that computes the nth Fibonacci number to improve testability.
+creative_support,"Plan a team offsite for a board of 12 investors with a budget of $120,000, including a rough timeline and vendor checklist."
+creative_support,A customer says their a wireless keyboard isn't working and the screen flickers constantly. Write a helpful support response.
+coding_technical,Compare an array and a process for a system handling an inventory management system.
+office_business,Write a polite follow-up message to an investor regarding a new expense policy.
+coding_technical,Compare a mutex and a set for a system handling a payment processing pipeline.
+data_analysis,"Given that refund requests rose 8% after the last release, what might be driving the change in conversion rate?"
+coding_technical,Refactor a Swift function that validates an email address to improve performance.
+creative_support,A customer says their a noise-cancelling headset isn't working and it overheats after 10 minutes. Write a helpful support response.
+misc,What is 869 plus 527?
+office_business,Write a professional email to an investor about an internal policy update.
+creative_support,Write a short story about a clockmaker who fell out of time.
+creative_support,A customer says their a smart thermostat isn't working and the battery drains in an hour. Write a helpful support response.
+coding_technical,Explain the difference between REST and a linked list in JavaScript.
+coding_technical,Debug this issue: a Python function that flattens a nested dictionary works for most inputs but fails on edge cases. What should I check?
+general_knowledge,Translate 'happy birthday' into Thai.
+general_knowledge,Translate 'how much does this cost' into Turkish.
+coding_technical,Write unit tests in Java for a function that parses a CSV file.
+misc,What is 260 plus 949?
+general_knowledge,What year did the collapse of the Soviet Union happen?
+office_business,Write a professional email to the finance team about an internal policy update.
+misc,What is 750 plus 206?
+coding_technical,Debug this issue: a Java function that checks if a number is prime works for most inputs but fails on edge cases. What should I check?
+coding_technical,Compare a mutex and a struct for a system handling a ride-sharing dispatch system.
+coding_technical,Write a Swift function that checks if two strings are anagrams.
+general_knowledge,What year did the discovery of penicillin happen?
+data_analysis,"Given that mobile app downloads tripled after the ad campaign, what might be driving the change in average order value?"
+misc,What is 341 plus 574?
+office_business,Write a professional email to a supplier about a security incident.
+data_analysis,"Given that cart abandonment rate increased 10% after the checkout redesign, what might be driving the change in gross margin?"
+office_business,Write a polite follow-up message to a job candidate regarding a data privacy update.
+office_business,Write a polite follow-up message to the legal team regarding a delayed shipment.
+office_business,Write a polite follow-up message to a former colleague regarding a contract renewal.
+creative_support,"Plan a product launch party for 200 conference attendees with a budget of $15,000, including a rough timeline and vendor checklist."
+coding_technical,Refactor a C++ function that sorts a list of tuples to improve readability.
+coding_technical,Refactor a TypeScript function that checks if a number is prime to improve testability.
+coding_technical,Write a SQL function that checks if two strings are anagrams.
+coding_technical,Explain the difference between an array and a queue in Rust.
+data_analysis,Analyze the trend in net promoter score over Q1 and Q2 and suggest two hypotheses for what's driving it.
+coding_technical,Debug this issue: a TypeScript function that finds the longest common subsequence works for most inputs but fails on edge cases. What should I check?
+office_business,Write a polite follow-up message to your manager regarding a security incident.
+office_business,Write a professional email to an investor about a data privacy update.
+coding_technical,Write a TypeScript function that implements a binary search.
+misc,Define 'sharding' in one sentence.
+office_business,Write a polite follow-up message to the finance team regarding an office relocation.
+coding_technical,Write unit tests in Python for a function that converts a string to title case.
+general_knowledge,What year did the first web browser release happen?
+creative_support,A customer says their a travel adapter with USB-C isn't working and it overheats after 10 minutes. Write a helpful support response.
+data_analysis,Analyze the trend in average order value over Q1 and Q2 and suggest two hypotheses for what's driving it.
+general_knowledge,What is the capital of Peru?
+office_business,Draft a vendor comparison brief for a product launch.
+misc,"Rewrite this sentence more concisely: 'It has come to our attention that, on account of recent changes to the underlying infrastructure, certain features may not be functioning in the manner in which they were originally intended.'"
+coding_technical,Write unit tests in Ruby for a function that validates an email address.
+creative_support,"Plan a customer appreciation dinner for 15 new hires with a budget of $120,000, including a rough timeline and vendor checklist."
+data_analysis,Analyze the trend in conversion rate over the last fiscal year and suggest two hypotheses for what's driving it.
+coding_technical,Write unit tests in Swift for a function that sorts a list of tuples.
+creative_support,"Plan a customer appreciation dinner for 40 remote employees with a budget of $120,000, including a rough timeline and vendor checklist."
+data_analysis,"Given that support tickets dropped 15% after the redesign, what might be driving the change in net promoter score?"
+coding_technical,"Design a microservices architecture for a video streaming platform using Redis and gRPC, covering fault tolerance, data consistency, and scaling under peak load."
+creative_support,A customer says their a smart thermostat isn't working and it disconnects from Wi-Fi randomly. Write a helpful support response.
+general_knowledge,Translate 'I am lost' into Polish.
+coding_technical,Compare a mutex and asynchronous code for a system handling a multi-region data replication service.
+data_analysis,Analyze the trend in daily active users over Q1 and Q2 and suggest two hypotheses for what's driving it.
+office_business,Draft a vendor comparison brief for a Q3 all-hands meeting.
+office_business,Write a professional email to the finance team about a partnership proposal.
+general_knowledge,Translate 'happy birthday' into Mandarin.
+data_analysis,"Given that revenue grew 12% quarter over quarter, what might be driving the change in churn rate?"
+data_analysis,"Given that signups doubled in the last month, what might be driving the change in churn rate?"
+office_business,Write a professional email to a client about a delayed shipment.
+general_knowledge,Translate 'thank you very much' into Greek.
+misc,What is 537 plus 949?
+coding_technical,Refactor a TypeScript function that sorts a list of tuples to improve testability.
+coding_technical,"Design a microservices architecture for a real-time chat application using AWS Lambda and DynamoDB, covering fault tolerance, data consistency, and scaling under peak load."
+creative_support,Write a short story about a translator who speaks the language of rivers.
+coding_technical,Refactor a Java function that flattens a nested dictionary to improve error handling.
+coding_technical,"Design a microservices architecture for an online auction platform using AWS Lambda and DynamoDB, covering fault tolerance, data consistency, and scaling under peak load."
+coding_technical,Write unit tests in Rust for a function that implements a binary search.
+office_business,Write a polite follow-up message to the legal team regarding a contract renewal.
+coding_technical,"Design a monolithic architecture for a real-time chat application using AWS Lambda and DynamoDB, covering fault tolerance, data consistency, and scaling under peak load."
+coding_technical,"Design a event-driven architecture for a recommendation engine using AWS Lambda and DynamoDB, covering fault tolerance, data consistency, and scaling under peak load."
+general_knowledge,Who invented photography?
+office_business,Summarize the key points from a discussion about a pricing change into three action items.
+coding_technical,Refactor a TypeScript function that computes the nth Fibonacci number to improve error handling.
+creative_support,"Plan a quarterly town hall for 40 remote employees with a budget of $8,500, including a rough timeline and vendor checklist."
+data_analysis,"Given that support tickets dropped 15% after the redesign, what might be driving the change in daily active users?"
+data_analysis,"Given that support tickets dropped 15% after the redesign, what might be driving the change in gross margin?"
+office_business,Write a polite follow-up message to the finance team regarding a partnership proposal.
+creative_support,"Plan a customer advisory board dinner for 500 trade show visitors with a budget of $1,200, including a rough timeline and vendor checklist."
+misc,What is 562 plus 901?
+coding_technical,Debug this issue: a JavaScript function that merges two sorted lists works for most inputs but fails on edge cases. What should I check?
+data_analysis,"Given that revenue grew 12% quarter over quarter, what might be driving the change in average order value?"
+creative_support,"Plan a quarterly town hall for a regional sales team of 25 with a budget of $2,000, including a rough timeline and vendor checklist."
+general_knowledge,What year did the first Olympic Games happen?
+misc,What is 399 plus 536?
+office_business,Summarize the key points from a discussion about an office relocation into three action items.
+general_knowledge,What is the capital of Nigeria?
+general_knowledge,Translate 'see you soon' into Portuguese.
+misc,What is 219 plus 277?
+coding_technical,Compare an array and asynchronous code for a system handling an inventory management system.
+coding_technical,Compare a list and a set for a system handling an online auction platform.
+creative_support,"Plan a partner appreciation event for 200 conference attendees with a budget of $300, including a rough timeline and vendor checklist."
+misc,What is 330 plus 507?
+creative_support,A customer says their a smart thermostat isn't working and it stopped syncing yesterday. Write a helpful support response.
+coding_technical,"Design a microservices architecture for a ride-sharing dispatch system using Kubernetes and RabbitMQ, covering fault tolerance, data consistency, and scaling under peak load."
+creative_support,Write a short story about a city that floats.
+creative_support,A customer says their a noise-cancelling headset isn't working and it disconnects from Wi-Fi randomly. Write a helpful support response.
+data_analysis,Analyze the trend in churn rate over the last fiscal year and suggest two hypotheses for what's driving it.
+coding_technical,Refactor a Python function that finds the longest common subsequence to improve error handling.
+creative_support,"Plan a team offsite for 40 remote employees with a budget of $15,000, including a rough timeline and vendor checklist."
+creative_support,A customer says their a smart thermostat isn't working and the app keeps crashing. Write a helpful support response.
+coding_technical,"What is the time complexity of merge sort, and when would you choose it over alternatives?"
+coding_technical,"Design a microservices architecture for a ride-sharing dispatch system using AWS Lambda and DynamoDB, covering fault tolerance, data consistency, and scaling under peak load."
+general_knowledge,Translate 'see you soon' into Arabic.
+creative_support,A customer says their a portable espresso maker isn't working and the app keeps crashing. Write a helpful support response.
+creative_support,"Plan a quarterly town hall for 40 remote employees with a budget of $120,000, including a rough timeline and vendor checklist."
+office_business,Write a polite follow-up message to an investor regarding a delayed shipment.
+coding_technical,"Design a monolithic architecture for an inventory management system using Redis and gRPC, covering fault tolerance, data consistency, and scaling under peak load."
+office_business,Draft a press release draft for a new client onboarding.
+office_business,Write a professional email to a former colleague about a contract renewal.
+data_analysis,"Given that signups doubled in the last month, what might be driving the change in customer lifetime value?"
+creative_support,"Plan a conference booth for 15 new hires with a budget of $2,000, including a rough timeline and vendor checklist."
+creative_support,Write a short story about a lighthouse keeper who never sees the sea.
+coding_technical,Refactor a C++ function that detects a cycle in a linked list to improve readability.
+misc,What is 717 plus 543?
+office_business,Write a professional email to a client about onboarding logistics.
+creative_support,A customer says their a wireless keyboard isn't working and the buttons stopped responding. Write a helpful support response.
+general_knowledge,What is the capital of Morocco?
+office_business,Draft a memo for a supplier evaluation.
+coding_technical,"Design a microservices architecture for a video streaming platform using AWS Lambda and DynamoDB, covering fault tolerance, data consistency, and scaling under peak load."
+creative_support,A customer says their a travel adapter with USB-C isn't working and it disconnects from Wi-Fi randomly. Write a helpful support response.
+coding_technical,Write unit tests in Rust for a function that computes the nth Fibonacci number.
+creative_support,"Plan a conference booth for 200 conference attendees with a budget of $500, including a rough timeline and vendor checklist."
+coding_technical,Debug this issue: a Python function that finds the longest common subsequence works for most inputs but fails on edge cases. What should I check?
+coding_technical,Compare an array and a semaphore for a system handling a video streaming platform.
+misc,List three pros and three cons of standing meetings.
+misc,What is 666 plus 849?
+data_analysis,Analyze the trend in churn rate over the last 6 months and suggest two hypotheses for what's driving it.
+creative_support,"Plan a customer appreciation dinner for a regional sales team of 25 with a budget of $300, including a rough timeline and vendor checklist."
+misc,What is 911 plus 346?
+coding_technical,Refactor a Go function that detects a cycle in a linked list to improve error handling.
+coding_technical,Write a JavaScript function that flattens a nested dictionary.
+office_business,Write a professional email to an investor about onboarding logistics.
+coding_technical,"What is the time complexity of depth-first search, and when would you choose it over alternatives?"
+misc,What is 539 plus 491?
+general_knowledge,What year did the invention of the personal computer happen?
+coding_technical,Refactor a JavaScript function that flattens a nested dictionary to improve testability.
+creative_support,"Plan a product launch party for a group of enterprise clients with a budget of $120,000, including a rough timeline and vendor checklist."
+coding_technical,Write a Ruby function that validates an email address.
+general_knowledge,Who invented the World Wide Web?
+office_business,Write a polite follow-up message to an investor regarding a partnership proposal.
+coding_technical,Compare a thread and a semaphore for a system handling a real-time chat application.
+misc,"Walk me through the steps to set up a personal budget, covering the key decisions at each stage."
+coding_technical,Write unit tests in Swift for a function that implements a binary search.
+coding_technical,Compare a thread and a linked list for a system handling a recommendation engine.
+misc,What is 669 plus 943?
+coding_technical,Compare a list and a set for a system handling a ride-sharing dispatch system.
+office_business,Draft a vendor comparison brief for a compliance review.
+general_knowledge,Translate 'good morning' into Thai.
+general_knowledge,Translate 'I don't understand' into French.
+general_knowledge,What year did the first successful heart transplant happen?
+office_business,Draft a performance review summary for a new client onboarding.
+coding_technical,"Design a multi-tenant architecture for a ride-sharing dispatch system using Redis and gRPC, covering fault tolerance, data consistency, and scaling under peak load."
+creative_support,"Plan a product launch party for a regional sales team of 25 with a budget of $120,000, including a rough timeline and vendor checklist."
+misc,What is 499 plus 819?
+coding_technical,Compare a mutex and a semaphore for a system handling a recommendation engine.
+coding_technical,Explain the difference between a thread and a struct in Swift.
+data_analysis,What SQL query would return orders placed but never fulfilled?
+coding_technical,Refactor a Ruby function that checks if two strings are anagrams to improve readability.
+general_knowledge,Translate 'what time does it open' into Swahili.
+misc,What is 368 plus 132?
+office_business,Summarize the key points from a discussion about a partnership proposal into three action items.
+data_analysis,Analyze the trend in customer lifetime value over the past 3 quarters and suggest two hypotheses for what's driving it.
+general_knowledge,What is the capital of Mongolia?
+coding_technical,Refactor a C++ function that reverses a string to improve error handling.
+coding_technical,Write unit tests in Swift for a function that finds the longest common subsequence.
+general_knowledge,Translate 'I would like a coffee' into Greek.
+coding_technical,Compare a class and a struct for a system handling a recommendation engine.
+coding_technical,"Design a microservices architecture for a real-time chat application using Kafka and PostgreSQL, covering fault tolerance, data consistency, and scaling under peak load."
+misc,What is 878 plus 637?
+creative_support,"Plan an employee wellness day for a board of 12 investors with a budget of $8,500, including a rough timeline and vendor checklist."
+coding_technical,Explain the difference between a mutex and GraphQL in Ruby.
+coding_technical,"Design a monolithic architecture for an online auction platform using Kubernetes and RabbitMQ, covering fault tolerance, data consistency, and scaling under peak load."
+coding_technical,Write unit tests in Rust for a function that detects a cycle in a linked list.
+coding_technical,Debug this issue: a Java function that sorts a list of tuples works for most inputs but fails on edge cases. What should I check?
+general_knowledge,Translate 'where is the train station' into Thai.
+coding_technical,"Design a monolithic architecture for a video streaming platform using AWS Lambda and DynamoDB, covering fault tolerance, data consistency, and scaling under peak load."
+misc,What is 971 plus 479?
+coding_technical,Write unit tests in Go for a function that removes duplicates from a list.
+general_knowledge,Translate 'where is the train station' into Swahili.
+coding_technical,Explain the difference between a thread and asynchronous code in TypeScript.
+general_knowledge,Translate 'I don't understand' into Swahili.
+coding_technical,Write a Java function that checks if a number is prime.
+office_business,Write a polite follow-up message to an investor regarding onboarding logistics.
+general_knowledge,Who invented penicillin?
+office_business,Draft a risk assessment summary for an internal audit.
+data_analysis,What SQL query would return products with the highest return rate?
+misc,Define 'amortization' in one sentence.
+misc,"Rewrite this sentence more concisely: 'In light of the fact that the project timeline has been subject to a number of unforeseen delays, we would like to take this opportunity to inform all stakeholders accordingly.'"
+data_analysis,"Given that refund requests rose 8% after the last release, what might be driving the change in daily active users?"
+office_business,Write a polite follow-up message to a vendor regarding a project deadline extension.
+data_analysis,"Given that refund requests rose 8% after the last release, what might be driving the change in churn rate?"
+coding_technical,Compare a stack and a set for a system handling an inventory management system.
+general_knowledge,What is the capital of Kenya?
+creative_support,Write a product description for a coffee grinder aimed at first-time buyers.
+general_knowledge,Who invented the internet search engine?
+coding_technical,Explain the difference between a list and asynchronous code in Python.
+coding_technical,Compare a class and GraphQL for a system handling a payment processing pipeline.
+coding_technical,Debug this issue: a SQL function that checks if two strings are anagrams works for most inputs but fails on edge cases. What should I check?
+general_knowledge,What is the capital of Iceland?
+creative_support,"Plan a customer advisory board dinner for 30 summer interns with a budget of $8,500, including a rough timeline and vendor checklist."
+coding_technical,Write a Ruby function that finds the longest common subsequence.
+coding_technical,Debug this issue: a Rust function that checks if two strings are anagrams works for most inputs but fails on edge cases. What should I check?
+creative_support,A customer says their a smart thermostat isn't working and it overheats after 10 minutes. Write a helpful support response.
+office_business,Summarize the key points from a discussion about a change in vendor terms into three action items.
+general_knowledge,Translate 'can you help me please' into Swahili.
+misc,"Walk me through the steps to prepare for a technical interview, covering the key decisions at each stage."
+coding_technical,Debug this issue: a Java function that counts word frequency in a text works for most inputs but fails on edge cases. What should I check?
+coding_technical,Write a Rust function that checks if two strings are anagrams.
+office_business,Draft a performance review summary for a Q3 all-hands meeting.
+data_analysis,"Given that customer support response times improved by 20% last month, what might be driving the change in net promoter score?"
+coding_technical,Debug this issue: a Python function that validates an email address works for most inputs but fails on edge cases. What should I check?
+misc,What is 693 plus 665?
+coding_technical,Refactor a Swift function that sorts a list of tuples to improve memory usage.
+general_knowledge,Translate 'thank you very much' into Portuguese.
+coding_technical,Explain the difference between synchronous code and a semaphore in JavaScript.
+misc,What is 118 plus 778?
+data_analysis,Analyze the trend in monthly active users over the trailing 4 quarters and suggest two hypotheses for what's driving it.
+data_analysis,"Given that revenue grew 12% quarter over quarter, what might be driving the change in customer lifetime value?"
+coding_technical,Refactor a Rust function that converts a string to title case to improve performance.
+creative_support,"Plan a team offsite for a group of enterprise clients with a budget of $50,000, including a rough timeline and vendor checklist."
+office_business,Write a polite follow-up message to your manager regarding Q3 budget approval.
+office_business,Write a professional email to a former colleague about Q3 budget approval.
+misc,What is 718 plus 76?
+office_business,Summarize the key points from a discussion about an internal policy update into three action items.
+misc,"Rewrite this sentence more concisely: 'At this juncture in time, and taking into consideration the various constraints that have been placed upon the team, it would appear that a revised approach may be warranted.'"
+misc,What is 633 plus 170?
+misc,What is 139 plus 897?
+general_knowledge,What year did the signing of the Treaty of Versailles happen?
+coding_technical,Compare a list and GraphQL for a system handling a recommendation engine.
+creative_support,"Plan a quarterly town hall for a board of 12 investors with a budget of $15,000, including a rough timeline and vendor checklist."
+misc,What is 309 plus 482?
+coding_technical,"Design a monolithic architecture for a payment processing pipeline using Redis and gRPC, covering fault tolerance, data consistency, and scaling under peak load."
+data_analysis,Analyze the trend in daily active users over the last 6 months and suggest two hypotheses for what's driving it.
+coding_technical,Explain the difference between synchronous code and a set in C++.
+data_analysis,Analyze the trend in average order value over the last fiscal year and suggest two hypotheses for what's driving it.
+data_analysis,"Given that refund requests rose 8% after the last release, what might be driving the change in customer lifetime value?"
+office_business,Write a professional email to a client about a partnership proposal.
+coding_technical,Refactor a Java function that checks if a number is prime to improve testability.
+office_business,Write a polite follow-up message to a supplier regarding an internal policy update.
+creative_support,"Plan a customer appreciation dinner for 30 summer interns with a budget of $120,000, including a rough timeline and vendor checklist."
+misc,What is 98 plus 487?
+misc,What is 555 plus 628?
+coding_technical,Write unit tests in Swift for a function that removes duplicates from a list.
+office_business,Write a professional email to the legal team about an upcoming product launch.
+creative_support,"Plan a customer advisory board dinner for a group of enterprise clients with a budget of $8,500, including a rough timeline and vendor checklist."

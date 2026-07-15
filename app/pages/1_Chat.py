@@ -218,8 +218,8 @@ def summarize_document_map_reduce(doc_name: str, doc_text: str, user_question: s
 
 st.title("Chat")
 st.caption(
-    "Every message is classified, routed to the cheapest capable model, scored by "
-    "an AI judge, and logged to data/requests.db — same pipeline as production traffic."
+    "Every message is classified by complexity, routed to the cheapest capable model, "
+    "and scored by an AI judge for quality -- the same pipeline that handles production traffic."
 )
 
 if "messages" not in st.session_state:
@@ -239,6 +239,8 @@ with st.sidebar:
     st.metric("Messages sent", sum(1 for m in st.session_state.messages if m["role"] == "user"))
     st.metric("Session cost", f"${total_cost:.6f}")
     if st.button("Clear chat", use_container_width=True):
+        st.divider()
+        st.caption("© 2026 Mohit Kewalramani. All rights reserved.")
         st.session_state.messages = []
         st.session_state.processing_prompt = None
         st.rerun()
@@ -364,3 +366,4 @@ elif prompt:
 
     st.session_state.processing_prompt = None
     st.rerun()
+
